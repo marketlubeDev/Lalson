@@ -1,0 +1,33 @@
+.sectionSix {
+  height: 70vh;
+  background-color: black;
+  padding: 5rem 0;
+
+  //   & h2 {
+  //     margin: 0 auto;
+  //     text-align: center;
+  //     font-size: 3rem;
+  //   }
+
+  &-grid {
+    padding: 5rem;
+    width: 100%;
+    background-color: black;
+
+    &-main {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 0.5rem;
+      &:hover .sectionSix-grid-item:not(:hover) {
+        opacity: 0.4;
+        transition: opacity 0.3s ease;
+      }
+    }
+
+    &-item {
+      height: 10rem;
+      background-color: rgb(82, 80, 80);
+      transition: opacity 0.3s ease;
+    }
+  }
+}

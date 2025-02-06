@@ -1,0 +1,32 @@
+.imageSection {
+  height: 120vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 7rem;
+
+    &-left {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      &-we {
+        color: white;
+        font-weight: 600;
+        font-size: 4rem;
+        width: 25rem;
+      }
+      &-brand {
+        color: white;
+        font-weight: 200;
+        font-size: 20px;
+      }
+    }
+  }
+}

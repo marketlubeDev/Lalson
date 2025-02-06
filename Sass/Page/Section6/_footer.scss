@@ -1,0 +1,143 @@
+.footer {
+  $primary-color: #000000;
+  $text-color: #ffffff;
+  $accent-color: #ffffff;
+
+  background-color: $primary-color;
+  color: $text-color;
+  padding: 4rem 2rem;
+  min-height: 400px;
+  position: relative;
+
+  &-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+  }
+
+  &-left {
+    display: flex;
+    align-items: center;
+
+    .logo {
+      img {
+        width: 20rem;
+        height: auto;
+      }
+
+      @media (max-width: 768px) {
+        margin: 0 auto;
+      }
+    }
+  }
+
+  &-center {
+    .footer-nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      gap: 1rem;
+
+      a {
+        color: $text-color;
+        text-decoration: none;
+        transition: opacity 0.3s ease;
+        font-size: 1rem;
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+
+      .contact-btn {
+        display: inline-block;
+        background-color: $text-color;
+        color: $primary-color;
+        padding: 0.5rem 1.5rem;
+        border-radius: 25px;
+        margin-top: 0.5rem;
+        width: fit-content;
+
+        @media (max-width: 768px) {
+          margin: 0.5rem auto;
+        }
+      }
+    }
+  }
+
+  &-right {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+
+    .footer-text {
+      font-size: 0.9rem;
+      line-height: 1.5;
+      width: 18rem;
+    }
+
+    .contact-info {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+
+      a {
+        color: $text-color;
+        text-decoration: none;
+        transition: opacity 0.3s ease;
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+
+    .social-links {
+      display: flex;
+      gap: 1rem;
+
+      @media (max-width: 768px) {
+        justify-content: center;
+      }
+
+      .social-icon {
+        width: 32px;
+        height: 32px;
+        background-color: $accent-color;
+        border-radius: 50%;
+        transition: opacity 0.3s ease;
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+
+  &-bottom {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 0.9rem;
+    opacity: 0.8;
+
+    a {
+      color: $text-color;
+      text-decoration: underline;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}

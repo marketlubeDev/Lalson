@@ -1,0 +1,26 @@
+.curious {
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 10rem;
+
+  &-left {
+    font-size: 5rem;
+    font-weight: 700;
+    width: 27rem;
+  }
+
+  &-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &-btn {
+      background-color: black;
+      padding: 10px;
+      color: white;
+      border-radius: 2rem;
+      border: none;
+    }
+  }
+}
