@@ -1,3 +1,4 @@
+@use "./../base/responsive" as mix;
 .scroll-card-box {
   height: 100vh;
   width: 100%;
@@ -7,6 +8,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @include mix.respond(smallPhone) {
+    height: fit-content;
+    padding: 5rem 0;
+  }
 }
 
 .scroll-card-box-container {
@@ -19,6 +25,26 @@
   align-items: center;
   justify-content: space-between;
   overflow: hidden;
+
+  @include mix.respond(smallPhone) {
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding: 1rem;
+    height: 32.5rem;
+  }
+  @include mix.respond(tablets) {
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
 }
 
 .scroll-card-box-left {
@@ -28,6 +54,14 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 2rem;
+
+  @include mix.respond(smallPhone) {
+    padding: 1rem;
+    width: 100%;
+  }
+  @include mix.respond(tablets) {
+    width: 100%;
+  }
 
   // @include responsive.respond(tablets) {
   //   width: 100%;
@@ -42,6 +76,17 @@
     gap: 1rem;
     font-size: 1.2rem;
 
+    @include mix.respond(smallPhone) {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      margin-bottom: 1rem;
+      width: 100%;
+    }
+    @include mix.respond(tablets) {
+      justify-content: start;
+    }
+
     & .num {
       background-color: black;
       border-radius: 50%;
@@ -53,11 +98,29 @@
       display: flex;
       align-items: center;
       justify-content: center;
+
+      @include mix.respond(smallPhone) {
+        font-size: 15px;
+        height: 2rem;
+        width: 2rem;
+      }
+      @include mix.respond(bigTablets) {
+        font-size: 20px;
+        height: 4rem;
+        width: 4rem;
+      }
     }
   }
 
   & .title {
     width: 70%;
+
+    @include mix.respond(smallPhone) {
+      width: 100%;
+    }
+    @include mix.respond(tablets) {
+      width: 75%;
+    }
   }
 
   & .title div {
@@ -66,12 +129,29 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-left: 2rem;
+
+    @include mix.respond(smallPhone) {
+      font-size: 1.5rem;
+      margin-left: 0rem;
+      width: 100%;
+    }
+    @include mix.respond(tablets) {
+      margin-left: 0rem;
+    }
   }
 
   & p {
     font-size: 1.2rem;
     font-weight: 300;
     margin-left: 2rem;
+
+    @include mix.respond(smallPhone) {
+      margin-left: 0rem;
+      font-size: 0.8rem;
+    }
+    @include mix.respond(tablets) {
+      margin-left: 0rem;
+    }
   }
 }
 
@@ -89,10 +169,20 @@
   justify-content: center;
   overflow: hidden;
 
+  @include mix.respond(smallPhone) {
+    display: none;
+  }
+  @include mix.respond(phone) {
+    display: none;
+  }
+
   & img {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    @include mix.respond(smallPhone) {
+      display: none;
+    }
   }
 }
 .scroll-card-box-center {
@@ -103,11 +193,36 @@
   overflow: hidden;
   margin-top: 1rem;
 
+  @include mix.respond(smallPhone) {
+    width: 100%;
+    background-color: rgb(249, 249, 249);
+    border-radius: 1rem;
+  }
+  @include mix.respond(tablets) {
+    // margin-left: 4rem;
+    // margin-top: 1rem;
+    // height: 27rem;
+    width: 100%;
+    height: 28rem;
+  }
+
   & img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     object-position: 50% 20%;
+
+    @include mix.respond(smallPhone) {
+      border-radius: 1rem;
+      width: 100%;
+
+      object-fit: cover;
+    }
+    @include mix.respond(tablets) {
+      border-radius: 1rem;
+      // width: 100%;
+      // height: 100%;
+    }
   }
 }
 @media (min-width: 800px) and (max-width: 900px) {

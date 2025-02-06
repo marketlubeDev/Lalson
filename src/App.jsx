@@ -11,7 +11,7 @@ import Nav from "./layout/Nav";
 function App() {
   return (
     <>
-      <Nav />
+      {/* <Nav /> */}
       <ImageSection />
       <Grid />
       <Scrollcard />

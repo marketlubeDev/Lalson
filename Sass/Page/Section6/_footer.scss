@@ -78,6 +78,10 @@
     flex-direction: column;
     gap: 5rem;
 
+    @media (max-width: 768px) {
+      display: flex;
+    }
+
     .footer-text {
       font-size: 0.9rem;
       line-height: 1.5;

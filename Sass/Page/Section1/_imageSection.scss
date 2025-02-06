@@ -1,3 +1,5 @@
+@use "./../../base/responsive" as mix;
+
 .imageSection {
   height: 120vh;
   width: 100%;
@@ -6,21 +8,64 @@
   flex-direction: column;
   justify-content: space-between;
 
+  @include mix.respond(tablets) {
+    height: 100vh;
+  }
+
   &-container {
     display: flex;
     justify-content: space-between;
     padding: 7rem;
 
+    @include mix.respond(smallPhone) {
+      display: flex;
+      flex-direction: column;
+      padding: 2rem;
+    }
+    @include mix.respond(tablets) {
+      display: flex;
+      justify-content: space-between;
+      padding: 2rem;
+    }
+
     &-left {
       display: flex;
       flex-direction: column;
       gap: 20px;
+      @include mix.respond(smallPhone) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      @include mix.respond(tablets) {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
 
       &-we {
         color: white;
         font-weight: 600;
         font-size: 4rem;
         width: 25rem;
+
+        @include mix.respond(smallPhone) {
+          font-weight: 400;
+          font-size: 2rem;
+          width: 15rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+        }
+        @include mix.respond(tablets) {
+          font-weight: 400;
+          font-size: 2rem;
+          width: 13rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
       }
       &-brand {
         color: white;

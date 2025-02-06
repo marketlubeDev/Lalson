@@ -1,19 +1,57 @@
+@use "./../../base/responsive" as mix;
 .curious {
   height: fit-content;
   display: flex;
   justify-content: space-between;
   padding: 3rem 10rem;
+  gap: 3rem;
+
+  @include mix.respond(tablets) {
+    padding: 2rem 3rem;
+  }
+
+  @include mix.respond(smallPhone) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+  }
 
   &-left {
     font-size: 5rem;
     font-weight: 700;
-    width: 27rem;
+    width: 35rem;
+    @include mix.respond(tablets) {
+      width: 40rem;
+    }
+
+    @include mix.respond(smallPhone) {
+      font-weight: 600;
+      font-size: 2rem;
+      width: 15rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    @include mix.respond(tablets) {
+      font-weight: 700;
+      font-size: 2.5rem;
+      width: 22rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
   }
 
   &-right {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    @include mix.respond(smallPhone) {
+      gap: 3rem;
+    }
 
     &-btn {
       background-color: black;
