@@ -13,7 +13,7 @@ function App() {
   const isMobile = useMediaQuery({ maxWidth: 767 });
   return (
     <>
-      {/* <Nav /> */}
+      <Nav />
       <ImageSection />
       <Grid />
       <Scrollcard />
