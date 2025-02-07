@@ -454,7 +454,7 @@ a {
 }
 
 .ourWorks {
-  height: 100vh;
+  height: fit-content;
   width: 100%;
   display: flex;
   align-items: center;
@@ -478,6 +478,23 @@ a {
   background-color: black;
   height: 100%;
   width: 100%;
+}
+
+.grid-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  grid-auto-rows: 10px;
+  overflow: hidden;
+}
+
+.card {
+  width: 100%;
+  background-color: black;
+  grid-row: span 20;
+  height: auto;
+  overflow: hidden;
+  transition: transform 1s ease-in-out;
 }
 
 .curious {
