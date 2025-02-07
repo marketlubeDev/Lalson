@@ -71,7 +71,27 @@
         color: white;
         font-weight: 200;
         font-size: 20px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
       }
     }
+  }
+}
+
+.downarrow {
+  font-size: 3.5rem;
+  cursor: pointer;
+
+  @include mix.respond(smallPhone) {
+    font-size: 2.5rem;
+  }
+
+  @include mix.respond(tablets) {
+    font-size: 3rem;
+  }
+
+  @include mix.respond(desktop) {
+    font-size: 3.5rem;
   }
 }
