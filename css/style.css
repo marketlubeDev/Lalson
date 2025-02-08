@@ -27,13 +27,30 @@ a {
 }
 @media only screen and (max-width: 575.98px) {
   .sectionSix-grid {
-    padding: 4rem 2.5rem;
+    padding: 4rem 2rem;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .sectionSix-grid {
+    padding: 4rem 2rem;
   }
 }
 .sectionSix-grid-main {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 0.5rem;
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .sectionSix-grid-main {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .sectionSix-grid-main {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, auto);
+  }
 }
 .sectionSix-grid-main:hover .sectionSix-grid-item:not(:hover) {
   opacity: 0.4;
@@ -673,11 +690,68 @@ a {
   height: 90%;
   width: 95%;
 }
+@media only screen and (max-width: 575.98px) {
+  .ourWorks-container {
+    padding: 2rem 0.8rem;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .ourWorks-container {
+    padding: 2rem 0.8rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .ourWorks-container {
+    padding: 2rem 0.8rem;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .ourWorks-container {
+    padding: 2rem 0.8rem;
+  }
+}
 .ourWorks-container-title {
   color: black;
-  font-size: 2rem;
-  font-weight: 600;
-  margin: 3rem;
+  font-size: 3.8rem;
+  font-weight: 500;
+  margin: 3rem 3rem 3rem 5rem;
+}
+@media only screen and (max-width: 575.98px) {
+  .ourWorks-container-title {
+    margin: 1rem 1rem 1rem 1rem;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .ourWorks-container-title {
+    margin: 1.5rem 1.5rem 1.5rem 3.5rem;
+    font-size: 2.8rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .ourWorks-container-title {
+    margin: 2rem 2rem 2rem 4rem;
+    font-size: 3rem;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .ourWorks-container-title {
+    margin: 2rem 2rem 2rem 4rem;
+    font-size: 3.5rem;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
+  .ourWorks-container-title {
+    margin: 2rem 2rem 2rem 4rem;
+    font-size: 3.5rem;
+  }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1699.98px) {
+  .ourWorks-container-title {
+    margin: 2rem 2rem 2rem 4rem;
+    font-size: 3.5rem;
+  }
 }
 .ourWorks-container-grid {
   background-color: black;
@@ -885,7 +959,7 @@ a {
   color: #ffffff;
   padding: 8rem 2rem 12rem 2rem;
   position: relative;
-  height: 90vh;
+  height: 88vh;
 }
 @media only screen and (max-width: 575.98px) {
   .footer {

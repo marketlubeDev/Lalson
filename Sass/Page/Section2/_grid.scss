@@ -4,24 +4,28 @@
   background-color: black;
   padding: 5rem 0;
 
-  //   & h2 {
-  //     margin: 0 auto;
-  //     text-align: center;
-  //     font-size: 3rem;
-  //   }
-
   &-grid {
     padding: 5rem;
     width: 100%;
     background-color: black;
     @include mix.respond(smallPhone) {
-      padding: 4rem 2.5rem;
+      padding: 4rem 2rem;
     }
-
+    @include mix.respond(phone) {
+      padding: 4rem 2rem;
+    }
     &-main {
       display: grid;
       grid-template-columns: repeat(6, 1fr);
       gap: 0.5rem;
+      @include mix.respond(tablets) {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, auto);
+      }
+      @include mix.respond(phone) {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, auto);
+      }
       &:hover .sectionSix-grid-item:not(:hover) {
         opacity: 0.4;
         transition: opacity 0.3s ease;

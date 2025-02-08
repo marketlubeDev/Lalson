@@ -15,12 +15,51 @@
     padding: 2rem;
     height: 90%;
     width: 95%;
+    @include mix.respond(smallPhone) {
+      padding: 2rem 0.8rem;
+    }
+    @include mix.respond(phone) {
+      padding: 2rem 0.8rem;
+    }
+    @include mix.respond(tablets) {
+      padding: 2rem 0.8rem;
+    }
+    @include mix.respond(bigTablets) {
+      padding: 2rem 0.8rem;
+    }
 
     &-title {
       color: black;
-      font-size: 2rem;
-      font-weight: 600;
-      margin: 3rem;
+      font-size: 3.8rem;
+      font-weight: 500;
+      margin: 3rem 3rem 3rem 5rem;
+      @include mix.respond(smallPhone) {
+        margin: 1rem 1rem 1rem 1rem;
+        display: flex;
+        justify-content: center;
+      }
+      @include mix.respond(phone) {
+        margin: 1.5rem 1.5rem 1.5rem 3.5rem;
+        font-size: 2.8rem;
+      }
+
+      @include mix.respond(tablets) {
+        margin: 2rem 2rem 2rem 4rem;
+        font-size: 3rem;
+      }
+
+      @include mix.respond(bigTablets) {
+        margin: 2rem 2rem 2rem 4rem;
+        font-size: 3.5rem;
+      }
+      @include mix.respond(desktop) {
+        margin: 2rem 2rem 2rem 4rem;
+        font-size: 3.5rem;
+      }
+      @include mix.respond(bigDesktop) {
+        margin: 2rem 2rem 2rem 4rem;
+        font-size: 3.5rem;
+      }
     }
     &-grid {
       background-color: black;

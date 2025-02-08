@@ -8,7 +8,7 @@
   color: $text-color;
   padding: 8rem 2rem 12rem 2rem;
   position: relative;
-  height: 90vh;
+  height: 88vh;
 
   @include mix.respond(smallPhone) {
     height: fit-content;
