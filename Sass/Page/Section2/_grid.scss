@@ -14,6 +14,9 @@
     padding: 5rem;
     width: 100%;
     background-color: black;
+    @include mix.respond(smallPhone) {
+      padding: 4rem 2.5rem;
+    }
 
     &-main {
       display: grid;

@@ -7,6 +7,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  // background-image: url("../../../src/assets/speekers.jpg");
+  // background-size: cover;
+  // background-position: center;
 
   @include mix.respond(tablets) {
     height: 100vh;
@@ -36,7 +39,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        gap: 5px;
       }
+
       @include mix.respond(tablets) {
         display: flex;
         flex-direction: column;
@@ -47,7 +52,7 @@
         color: white;
         font-weight: 600;
         font-size: 4rem;
-        width: 25rem;
+        width: 28rem;
 
         @include mix.respond(smallPhone) {
           font-weight: 400;
@@ -66,6 +71,16 @@
           align-items: center;
           justify-content: center;
         }
+        @include mix.respond(bigTablets) {
+          font-weight: 500;
+          font-size: 3.7rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        @include mix.respond(desktop) {
+          // font-size: 3.8rem;
+        }
       }
       &-brand {
         color: white;
@@ -80,7 +95,7 @@
 }
 
 .downarrow {
-  font-size: 3.5rem;
+  font-size: 5.5rem;
   cursor: pointer;
 
   @include mix.respond(smallPhone) {
@@ -92,6 +107,139 @@
   }
 
   @include mix.respond(desktop) {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
+  }
+}
+
+.banner-container {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  text-align: center;
+  height: 35vh;
+}
+
+.text-center {
+  color: #ffffff;
+  line-height: 3.8rem;
+
+  @include mix.respond(smallPhone) {
+    line-height: 2rem;
+  }
+
+  @include mix.respond(phone) {
+    line-height: 3rem;
+  }
+
+  @include mix.respond(tablets) {
+    line-height: 3.2rem;
+  }
+
+  @include mix.respond(bigTablets) {
+    line-height: 3.2rem;
+  }
+
+  @include mix.respond(desktop) {
+    line-height: 3.4rem;
+  }
+}
+
+.large-text {
+  font-size: 6.5rem;
+
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  @include mix.respond(smallPhone) {
+    font-size: 2.5rem;
+  }
+
+  @include mix.respond(phone) {
+    font-size: 4rem;
+  }
+
+  @include mix.respond(tablets) {
+    font-size: 5rem;
+  }
+
+  @include mix.respond(bigTablets) {
+    font-size: 5.2rem;
+  }
+
+  @include mix.respond(desktop) {
+    font-size: 5.5rem;
+  }
+
+  @include mix.respond(bigDesktop) {
+    font-size: 7rem;
+  }
+}
+
+.small-text1 {
+  margin-left: 1rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: left;
+
+  @include mix.respond(smallPhone) {
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+  }
+
+  @include mix.respond(phone) {
+    font-size: 2rem;
+  }
+
+  @include mix.respond(tablets) {
+    font-size: 2.2rem;
+  }
+
+  @include mix.respond(bigTablets) {
+    font-size: 2.5rem;
+  }
+
+  @include mix.respond(desktop) {
+    font-size: 2.5rem;
+  }
+
+  @include mix.respond(bigDesktop) {
+    font-size: 2.8rem;
+  }
+}
+
+.small-text2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: right;
+  margin-right: 1rem;
+
+  @include mix.respond(smallPhone) {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+  }
+
+  @include mix.respond(phone) {
+    font-size: 2rem;
+  }
+
+  @include mix.respond(tablets) {
+    font-size: 2.2rem;
+  }
+
+  @include mix.respond(bigTablets) {
+    font-size: 2.5rem;
+  }
+
+  @include mix.respond(desktop) {
+    font-size: 2.5rem;
+  }
+
+  @include mix.respond(bigDesktop) {
+    font-size: 2.8rem;
   }
 }
