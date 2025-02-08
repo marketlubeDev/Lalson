@@ -14,14 +14,30 @@
     @include mix.respond(phone) {
       padding: 4rem 2rem;
     }
+    @include mix.respond(tablets) {
+      padding: 4rem 2rem;
+    }
+    @include mix.respond(bigTablets) {
+      padding: 4rem 2rem;
+    }
+    @include mix.respond(desktop) {
+      padding: 4rem 2rem;
+    }
+
     &-main {
       display: grid;
       grid-template-columns: repeat(6, 1fr);
+
       gap: 0.5rem;
       @include mix.respond(tablets) {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, auto);
       }
+      @include mix.respond(bigTablets) {
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(4, auto);
+      }
+
       @include mix.respond(phone) {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(4, auto);

@@ -11,6 +11,12 @@
     column-gap: 1rem;
     gap: 1.2rem;
   }
+  @include mix.respond(phone) {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    column-gap: 0rem;
+    gap: 1.5rem;
+  }
   @include mix.respond(tablets) {
     column-gap: 5rem;
   }
@@ -34,9 +40,13 @@
   @include mix.respond(smallPhone) {
     font-size: 2.5rem;
   }
+  @include mix.respond(phone) {
+    font-size: 2.5rem;
+  }
   @include mix.respond(tablets) {
     font-size: 2.5rem;
   }
+
   @include mix.respond(bigTablets) {
     font-size: 3rem;
   }

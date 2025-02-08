@@ -35,6 +35,21 @@ a {
     padding: 4rem 2rem;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .sectionSix-grid {
+    padding: 4rem 2rem;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .sectionSix-grid {
+    padding: 4rem 2rem;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
+  .sectionSix-grid {
+    padding: 4rem 2rem;
+  }
+}
 .sectionSix-grid-main {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -43,6 +58,12 @@ a {
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .sectionSix-grid-main {
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .sectionSix-grid-main {
+    grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(4, auto);
   }
 }
@@ -99,6 +120,13 @@ a {
     padding: 2rem;
   }
 }
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .imageSection-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .imageSection-container {
     display: flex;
@@ -112,6 +140,14 @@ a {
   gap: 20px;
 }
 @media only screen and (max-width: 575.98px) {
+  .imageSection-container-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
   .imageSection-container-left {
     display: flex;
     align-items: center;
@@ -133,6 +169,17 @@ a {
   width: 28rem;
 }
 @media only screen and (max-width: 575.98px) {
+  .imageSection-container-left-we {
+    font-weight: 400;
+    font-size: 2rem;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
   .imageSection-container-left-we {
     font-weight: 400;
     font-size: 2rem;
@@ -176,6 +223,11 @@ a {
   cursor: pointer;
 }
 @media only screen and (max-width: 575.98px) {
+  .downarrow {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
   .downarrow {
     font-size: 2.5rem;
   }
@@ -361,6 +413,14 @@ a {
     gap: 1.2rem;
   }
 }
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .gridsection {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    column-gap: 0rem;
+    gap: 1.5rem;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .gridsection {
     column-gap: 5rem;
@@ -386,6 +446,11 @@ a {
   color: white;
 }
 @media only screen and (max-width: 575.98px) {
+  .ten {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
   .ten {
     font-size: 2.5rem;
   }
@@ -424,7 +489,11 @@ a {
 @media only screen and (max-width: 575.98px) {
   .scroll-card-box {
     height: fit-content;
-    padding: 5rem 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .scroll-card-box {
+    height: 100vh;
   }
 }
 
@@ -458,6 +527,7 @@ a {
     align-items: center;
     justify-content: center;
     padding: 0;
+    height: fit-content;
   }
 }
 
@@ -475,9 +545,24 @@ a {
     width: 100%;
   }
 }
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .scroll-card-box-left {
+    padding: 1rem;
+    width: 100%;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .scroll-card-box-left {
     width: 100%;
+    justify-content: unset;
+    height: fit-content;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .scroll-card-box-left {
+    width: 100%;
+    justify-content: unset;
+    height: fit-content;
   }
 }
 .scroll-card-box-left .step {
@@ -555,9 +640,22 @@ a {
     width: 100%;
   }
 }
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .scroll-card-box-left .title div {
+    font-size: 1.5rem;
+    margin-left: 0rem;
+    width: 100%;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .scroll-card-box-left .title div {
     margin-left: 0rem;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .scroll-card-box-left .title div {
+    margin-left: 0rem;
+    font-size: 3.5rem;
   }
 }
 .scroll-card-box-left p {
@@ -571,9 +669,21 @@ a {
     font-size: 0.8rem;
   }
 }
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .scroll-card-box-left p {
+    margin-left: 0rem;
+    font-size: 0.8rem;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .scroll-card-box-left p {
     margin-left: 0rem;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .scroll-card-box-left p {
+    margin-left: 0rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -627,10 +737,23 @@ a {
     border-radius: 1rem;
   }
 }
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .scroll-card-box-center {
+    width: 100%;
+    background-color: rgb(249, 249, 249);
+    border-radius: 1rem;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .scroll-card-box-center {
     width: 100%;
     height: 28rem;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .scroll-card-box-center {
+    width: 100%;
+    height: 40rem;
   }
 }
 .scroll-card-box-center img {
