@@ -1646,6 +1646,7 @@ a {
   text-decoration: none;
   font-size: 0.9rem;
   transition: opacity 0.3s ease;
+  cursor: pointer;
 }
 .header__nav .nav-link:hover {
   opacity: 0.8;
