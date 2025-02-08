@@ -1,10 +1,10 @@
 function OurWork() {
   return (
-    <section className="ourWorks">
+    <section className="ourWorks" id="projects">
       <div className="ourWorks-container">
         <h1 className="ourWorks-container-title">Our Works</h1>
         {/* <div className="ourWorks-container-grid">grid</div> */}
-        <div className="grid-section" id="home">
+        <div className="grid-section" id="">
           <div
             className="card"
             style={{

@@ -3,6 +3,13 @@ import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import logo from "./../../assets/Lalisons.svg";
 function Footer() {
+  const smoothScroll = (e, targetId) => {
+    e.preventDefault();
+    const target = document.querySelector(targetId);
+    if (target) {
+      target.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <footer className="footer">
       <div className="footer-content">
@@ -14,12 +21,17 @@ function Footer() {
         <div className="footer-right">
           <div className="footer-navbar">
             <nav className="footer-nav">
-              <a href="#home">Home</a>
-              <a href="#about">About</a>
-              <a href="#services">Services</a>
-              <a href="#projects">Projects</a>
+              <a onClick={(e) => smoothScroll(e, "#home")}>Home</a>
+              <a onClick={(e) => smoothScroll(e, "#about")}>About</a>
+              <a onClick={(e) => smoothScroll(e, "#service")}>Services</a>
+              <a onClick={(e) => smoothScroll(e, "#projects")}>Projects</a>
               <a href="#testimonial">Testimonial</a>
-              <a href="#contact" className="contact-btn">
+              <a
+                href="https://wa.me/911237896540"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="contact-btn"
+              >
                 Contact
               </a>
             </nav>

@@ -29,19 +29,24 @@ function Nav() {
           </div>
         </div>
         <nav className="header__nav">
-          <a href="#home" className="nav-link">
+          <a onClick={(e) => smoothScroll(e, "#home")} className="nav-link">
             Home
           </a>
-          <a href="#about" className="nav-link">
+          <a onClick={(e) => smoothScroll(e, "#about")} className="nav-link">
             About
           </a>
-          <a href="#service" className="nav-link">
+          <a onClick={(e) => smoothScroll(e, "#service")} className="nav-link">
             Service
           </a>
-          <a href="#projects" className="nav-link">
+          <a onClick={(e) => smoothScroll(e, "#projects")} className="nav-link">
             Projects
           </a>
-          <a href="#contact" className="nav-link nav-link--contact">
+          <a
+            href="https://wa.me/911237896540"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="nav-link nav-link--contact"
+          >
             Contact
           </a>
         </nav>

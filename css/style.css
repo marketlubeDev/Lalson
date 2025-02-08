@@ -1267,7 +1267,6 @@ a {
 }
 .footer-bottom a:hover {
   opacity: 1;
-  color: blue;
   text-decoration-color: white;
 }
 
@@ -1357,9 +1356,6 @@ a {
   .footer-navbar .footer-nav a {
     font-size: 1.5rem;
   }
-}
-.footer-navbar .footer-nav a:hover {
-  text-decoration: underline;
 }
 .footer-navbar .footer-nav .contact-btn {
   background-color: #ffffff;

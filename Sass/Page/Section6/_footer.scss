@@ -151,7 +151,7 @@
 
       &:hover {
         opacity: 1;
-        color: blue;
+        // color: blue;
         text-decoration-color: white;
       }
     }
@@ -219,10 +219,6 @@
       }
       @include mix.respond(bigDesktop) {
         font-size: 1.5rem;
-      }
-
-      &:hover {
-        text-decoration: underline;
       }
     }
 
