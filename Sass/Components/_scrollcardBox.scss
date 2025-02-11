@@ -10,8 +10,8 @@
   align-items: center;
 
   @include mix.respond(smallPhone) {
-    height: fit-content;
-    // padding: 5rem 0;
+    height: 90vh;
+    align-items: start;
   }
   @include mix.respond(tablets) {
     height: 100vh;
