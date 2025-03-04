@@ -27,8 +27,8 @@
     &-main {
       display: grid;
       grid-template-columns: repeat(6, 1fr);
-
       gap: 0.5rem;
+
       @include mix.respond(tablets) {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, auto);

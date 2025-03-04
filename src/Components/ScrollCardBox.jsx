@@ -29,11 +29,11 @@ function ScrollCardBox({ data }) {
             >
               {data.span}
             </span>
-            <span style={{ color: textCol }}>Step</span>
+            <span style={{ color: textCol }}></span>
           </div>
           {isTab && (
             <div className="scroll-card-box-center">
-              {/* <img src={data.img} alt="" /> */}
+              <img src={data.img} alt={data.title} />
             </div>
           )}
           <div className="title" style={{ color: titleCol }}>
@@ -43,7 +43,7 @@ function ScrollCardBox({ data }) {
         </div>
         {!isTab && (
           <div className="scroll-card-box-right">
-            {/* <img src={data.img} alt="" /> */}
+            <img src={data.img} alt={data.title} />
           </div>
         )}
       </div>

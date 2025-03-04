@@ -96,12 +96,17 @@ a {
   }
 }
 .imageSection {
-  height: 120vh;
+  height: 150vh;
   width: 100%;
   background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-image: url("../../../src/assets/lalsonsHome.jpg");
+  background-size: cover;
+  background-position: center 32%;
+  background-repeat: no-repeat;
+  position: relative;
 }
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .imageSection {
@@ -176,7 +181,7 @@ a {
   color: white;
   font-weight: 600;
   font-size: 4rem;
-  width: 28rem;
+  width: 43rem;
 }
 @media only screen and (max-width: 575.98px) {
   .imageSection-container-left-we {
@@ -217,6 +222,16 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
+  .imageSection-container-left-we {
+    font-size: 3.2rem;
+  }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1699.98px) {
+  .imageSection-container-left-we {
+    font-size: 3.5rem;
   }
 }
 .imageSection-container-left-brand {
@@ -296,6 +311,7 @@ a {
   font-weight: bolder;
   text-transform: uppercase;
   color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 @media only screen and (max-width: 575.98px) {
   .large-text {
@@ -335,6 +351,7 @@ a {
   text-transform: uppercase;
   color: #ffffff;
   text-align: left;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 @media only screen and (max-width: 575.98px) {
   .small-text1 {
@@ -375,6 +392,7 @@ a {
   color: #ffffff;
   text-align: right;
   margin-right: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 @media only screen and (max-width: 575.98px) {
   .small-text2 {
@@ -441,6 +459,16 @@ a {
     column-gap: 2rem;
   }
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
+  .gridsection {
+    column-gap: 5rem;
+  }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1699.98px) {
+  .gridsection {
+    column-gap: 5rem;
+  }
+}
 
 .flex-col-center {
   display: flex;
@@ -471,6 +499,16 @@ a {
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .ten {
+    font-size: 3rem;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
+  .ten {
+    font-size: 3.2rem;
+  }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1699.98px) {
   .ten {
     font-size: 3rem;
   }
@@ -796,7 +834,7 @@ a {
 }
 .scroll-card {
   width: 100%;
-  height: 600vh;
+  height: 400vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -924,6 +962,12 @@ a {
   height: auto;
   overflow: hidden;
   transition: transform 1s ease-in-out;
+}
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 0rem;
 }
 
 .curious {

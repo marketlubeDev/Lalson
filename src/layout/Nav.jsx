@@ -25,7 +25,13 @@ function Nav() {
       <div className="header__container">
         <div className="header__logo">
           <div className="logo-text">
-            <img src={logo} alt="LALSONS Electronics" className="logo-image" />
+            <img
+              onClick={(e) => smoothScroll(e, "#home")}
+              src={logo}
+              alt="LALSONS Electronics"
+              className="logo-image"
+              style={{ cursor: "pointer" }}
+            />
           </div>
         </div>
         <nav className="header__nav">
@@ -82,7 +88,7 @@ function Nav() {
               </li>
               <li className="navigation__item">
                 <a
-                  href="https://wa.me/911237896540"
+                  href="https://wa.me/+918139813883"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="navbtn"
@@ -101,7 +107,10 @@ function Nav() {
                   left: "0",
                 }}
               >
-                <a href="https://www.facebook.com/" className="social-link">
+                <a
+                  href="https://www.facebook.com/share/16Etpa2YQ8/"
+                  className="social-link"
+                >
                   <div className="social-circle-mobile">
                     <FaFacebookF />
                   </div>
@@ -111,7 +120,7 @@ function Nav() {
                     <FaInstagram />
                   </div>
                 </a>
-                <a href="https://wa.me/1234567890" className="social-link">
+                <a href="https://wa.me/+918139813883" className="social-link">
                   <div className="social-circle-mobile">
                     <FaWhatsapp />
                   </div>
@@ -121,7 +130,10 @@ function Nav() {
           </nav>
         </div>
         <div className="header__social">
-          <a href="https://www.facebook.com/" className="social-link">
+          <a
+            href="https://www.facebook.com/share/16Etpa2YQ8/"
+            className="social-link"
+          >
             <div className="social-circle">
               <FaFacebookF />
             </div>
@@ -131,7 +143,7 @@ function Nav() {
               <FaInstagram />
             </div>
           </a>
-          <a href="https://wa.me/1234567890" className="social-link">
+          <a href="https://wa.me/+918139813883" className="social-link">
             <div className="social-circle">
               <FaWhatsapp />
             </div>

@@ -1,15 +1,17 @@
 @use "./../../base/responsive" as mix;
 
 .imageSection {
-  height: 120vh;
+  height: 150vh;
   width: 100%;
   background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  // background-image: url("../../../src/assets/speekers.jpg");
-  // background-size: cover;
-  // background-position: center;
+  background-image: url("../../../src/assets/lalsonsHome.jpg");
+  background-size: cover;
+  background-position: center 32%;
+  background-repeat: no-repeat;
+  position: relative;
 
   @include mix.respond(tablets) {
     height: 100vh;
@@ -69,7 +71,7 @@
         color: white;
         font-weight: 600;
         font-size: 4rem;
-        width: 28rem;
+        width: 43rem;
 
         @include mix.respond(smallPhone) {
           font-weight: 400;
@@ -105,7 +107,10 @@
           justify-content: center;
         }
         @include mix.respond(desktop) {
-          // font-size: 3.8rem;
+          font-size: 3.2rem;
+        }
+        @include mix.respond(bigDesktop) {
+          font-size: 3.5rem;
         }
       }
       &-brand {
@@ -179,6 +184,7 @@
   font-weight: bolder;
   text-transform: uppercase;
   color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
   @include mix.respond(smallPhone) {
     font-size: 2.5rem;
@@ -212,6 +218,7 @@
   text-transform: uppercase;
   color: #ffffff;
   text-align: left;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
   @include mix.respond(smallPhone) {
     font-size: 1.2rem;
@@ -246,6 +253,7 @@
   color: #ffffff;
   text-align: right;
   margin-right: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
   @include mix.respond(smallPhone) {
     font-size: 1.5rem;

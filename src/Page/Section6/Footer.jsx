@@ -27,7 +27,7 @@ function Footer() {
               <a onClick={(e) => smoothScroll(e, "#projects")}>Projects</a>
               <a href="#testimonial">Testimonial</a>
               <a
-                href="https://wa.me/911237896540"
+                href="https://wa.me/+918139813883"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="contact-btn"
@@ -39,17 +39,25 @@ function Footer() {
           <div className="footer-address">
             <div className="">
               <p className="footer-text">
-                Lorem ipsum dolor sit amet,
-                <br /> consectetuer adipiscing elit,
-                <br /> sed diam nonummy nibh
-                <br /> euismod tincidunt ut
+                East end C.H over bridge,
+                <br /> Red Cross Rd,
+                <br /> behind SBI main branch,
+                <br /> Kozhikode, Kerala
+                <br />
+                673001
               </p>
+              <div>Open 10am ⋅ Closes 6pm</div>
             </div>
             <div className="contact-info">
-              <a href="mailto:hello@lalsons.com">hello@lalsons.com</a>
-              <a href="tel:+919900099900">+91 9900 0999 9900</a>
+              <a href="mailto:lalsonscalicut@gmail.com">
+                lalsonscalicut@gmail.com
+              </a>
+              <a href="tel:+918139813883">+91 81398 13883</a>
               <div className="social-links">
-                <a href="https://www.facebook.com/" className="social-link">
+                <a
+                  href="https://www.facebook.com/share/16Etpa2YQ8/"
+                  className="social-link"
+                >
                   <div className="social-circle">
                     <FaFacebookF />
                   </div>
@@ -59,7 +67,7 @@ function Footer() {
                     <FaInstagram />
                   </div>
                 </a>
-                <a href="https://wa.me/1234567890" className="social-link">
+                <a href="https://wa.me/+918139813883" className="social-link">
                   <div className="social-circle">
                     <FaWhatsapp />
                   </div>
@@ -72,7 +80,7 @@ function Footer() {
 
       <div className="footer-bottom">
         <p>
-          made by <a href="https://www.marketlube.in/">Marketlube</a>
+          made by <a href="https://www.instagram.com/marketlube/">Marketlube</a>
         </p>
       </div>
     </footer>

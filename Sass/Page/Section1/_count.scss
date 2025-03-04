@@ -23,6 +23,12 @@
   @include mix.respond(bigTablets) {
     column-gap: 2rem;
   }
+  @include mix.respond(desktop) {
+    column-gap: 5rem;
+  }
+  @include mix.respond(bigDesktop) {
+    column-gap: 5rem;
+  }
 }
 
 .flex-col-center {
@@ -48,6 +54,12 @@
   }
 
   @include mix.respond(bigTablets) {
+    font-size: 3rem;
+  }
+  @include mix.respond(desktop) {
+    font-size: 3.2rem;
+  }
+  @include mix.respond(bigDesktop) {
     font-size: 3rem;
   }
 }
