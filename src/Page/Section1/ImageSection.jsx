@@ -4,7 +4,7 @@ import Count from "./Count";
 
 function ImageSection() {
   return (
-    <div className="imageSection" id="home">
+    <div className="imageSection" id="home" loading="lazy">
       <div className="banner-overlay">
         <div className="banner-container">
           <div className="text-center">
