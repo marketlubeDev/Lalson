@@ -9,18 +9,20 @@
   justify-content: space-between;
   background-image: url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1741092535/lalsonsHome_nsprbp.jpg");
   background-size: cover;
-  background-position: center 32%;
+  background-position: center 35%;
   background-repeat: no-repeat;
   position: relative;
 
   @include mix.respond(tablets) {
-    height: 100vh;
+    // background-position: center 15%;
+
+    height: 120vh;
   }
   @include mix.respond(smallPhone) {
-    height: 110vh;
+    // background-position: calc(100% - -15rem) center;
   }
   @include mix.respond(phone) {
-    height: 110vh;
+    // height: 110vh;
   }
 
   &-container {
@@ -42,6 +44,9 @@
       display: flex;
       justify-content: space-between;
       padding: 2rem;
+    }
+    @include mix.respond(bigTablets) {
+      padding: 3rem;
     }
 
     &-left {
@@ -94,20 +99,22 @@
         @include mix.respond(tablets) {
           font-weight: 400;
           font-size: 2rem;
-          width: 13rem;
+          width: 22rem;
           display: flex;
           align-items: center;
           justify-content: center;
         }
         @include mix.respond(bigTablets) {
           font-weight: 500;
-          font-size: 3.7rem;
+          font-size: 3rem;
           display: flex;
           align-items: center;
           justify-content: center;
+          width: 38rem;
         }
         @include mix.respond(desktop) {
           font-size: 3.2rem;
+          width: 38rem;
         }
         @include mix.respond(bigDesktop) {
           font-size: 3.5rem;

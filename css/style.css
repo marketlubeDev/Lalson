@@ -104,23 +104,13 @@ a {
   justify-content: space-between;
   background-image: url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1741092535/lalsonsHome_nsprbp.jpg");
   background-size: cover;
-  background-position: center 32%;
+  background-position: center 35%;
   background-repeat: no-repeat;
   position: relative;
 }
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .imageSection {
-    height: 100vh;
-  }
-}
-@media only screen and (max-width: 575.98px) {
-  .imageSection {
-    height: 110vh;
-  }
-}
-@media only screen and (min-width: 576px) and (max-width: 767.98px) {
-  .imageSection {
-    height: 110vh;
+    height: 120vh;
   }
 }
 .imageSection-container {
@@ -147,6 +137,11 @@ a {
     display: flex;
     justify-content: space-between;
     padding: 2rem;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .imageSection-container {
+    padding: 3rem;
   }
 }
 .imageSection-container-left {
@@ -209,7 +204,7 @@ a {
   .imageSection-container-left-we {
     font-weight: 400;
     font-size: 2rem;
-    width: 13rem;
+    width: 22rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -218,15 +213,17 @@ a {
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
   .imageSection-container-left-we {
     font-weight: 500;
-    font-size: 3.7rem;
+    font-size: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 38rem;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
   .imageSection-container-left-we {
     font-size: 3.2rem;
+    width: 38rem;
   }
 }
 @media only screen and (min-width: 1400px) and (max-width: 1699.98px) {
