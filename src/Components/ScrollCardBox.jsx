@@ -14,7 +14,7 @@ function ScrollCardBox({ data }) {
     textCol = "black";
   }
 
-  const isTab = window.innerWidth < 1150;
+  const isTab = window.innerWidth < 992;
   return (
     <div className="scroll-card-box" id="service">
       <div

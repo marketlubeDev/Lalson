@@ -20,10 +20,10 @@
     height: 90%;
     width: 95%;
     @include mix.respond(smallPhone) {
-      padding: 2rem 0.8rem;
+      padding: 4rem 0.8rem;
     }
     @include mix.respond(phone) {
-      padding: 2rem 0.8rem;
+      padding: 0rem 0.8rem;
     }
     @include mix.respond(tablets) {
       padding: 2rem 0.8rem;

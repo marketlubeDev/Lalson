@@ -60,7 +60,7 @@
         width: 35rem;
         height: auto;
         @include mix.respond(smallPhone) {
-          width: 20rem;
+          width: 19rem;
         }
         @include mix.respond(phone) {
           width: 28rem;

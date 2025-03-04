@@ -15,7 +15,7 @@
       padding: 4rem 2rem;
     }
     @include mix.respond(tablets) {
-      padding: 4rem 2rem;
+      padding: 6rem 2rem;
     }
     @include mix.respond(bigTablets) {
       padding: 4rem 2rem;
@@ -52,6 +52,16 @@
       height: 10rem;
       background-color: rgb(82, 80, 80);
       transition: opacity 0.3s ease;
+
+      @include mix.respond(smallPhone) {
+        height: 8rem;
+      }
+      @include mix.respond(phone) {
+        height: 8rem;
+      }
+      @include mix.respond(tablets) {
+        height: 8rem;
+      }
     }
   }
 }
