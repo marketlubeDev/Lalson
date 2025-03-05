@@ -28,7 +28,6 @@
   overflow: hidden;
   border-radius: 5rem;
 
-
   @include mix.respond(smallPhone) {
     display: flex;
     flex-direction: column;
@@ -57,17 +56,17 @@
     align-items: center;
     justify-content: center;
     padding: 0;
-    height: fit-content;
+    height: 80vh;
   }
   @include mix.respond(bigTablets) {
     display: flex;
-    // flex-direction: column;
+    flex-direction: column;
     border-radius: 4rem;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 2rem;
-    
+    height: 80vh;
   }
 }
 
@@ -94,7 +93,7 @@
     height: fit-content;
   }
   @include mix.respond(bigTablets) {
-    width: 60%;
+    width: 90%;
     justify-content: unset;
     height: fit-content;
   }
