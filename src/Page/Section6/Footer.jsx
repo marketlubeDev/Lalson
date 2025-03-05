@@ -21,16 +21,37 @@ function Footer() {
         <div className="footer-right">
           <div className="footer-navbar">
             <nav className="footer-nav">
-              <a onClick={(e) => smoothScroll(e, "#home")}>Home</a>
-              <a onClick={(e) => smoothScroll(e, "#about")}>About</a>
-              <a onClick={(e) => smoothScroll(e, "#service")}>Services</a>
-              <a onClick={(e) => smoothScroll(e, "#projects")}>Projects</a>
-              <a href="#testimonial">Testimonial</a>
+              <a
+                style={{ cursor: "pointer" }}
+                onClick={(e) => smoothScroll(e, "#home")}
+              >
+                Home
+              </a>
+              <a
+                style={{ cursor: "pointer" }}
+                onClick={(e) => smoothScroll(e, "#about")}
+              >
+                About
+              </a>
+              <a
+                style={{ cursor: "pointer" }}
+                onClick={(e) => smoothScroll(e, "#service")}
+              >
+                Services
+              </a>
+              <a
+                style={{ cursor: "pointer" }}
+                onClick={(e) => smoothScroll(e, "#projects")}
+              >
+                Projects
+              </a>
+              {/* <a href="#testimonial">Testimonial</a> */}
               <a
                 href="https://wa.me/+918139813883"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="contact-btn"
+                style={{ cursor: "pointer" }}
               >
                 Contact
               </a>

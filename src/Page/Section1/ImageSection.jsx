@@ -20,7 +20,7 @@ function ImageSection() {
             Elevating Experiences with Sound & Vision
           </div>
           <div className="imageSection-container-left-brand">
-            our brands{" "}
+            Our Brands{" "}
             <a href="#clients">
               <PiArrowCircleDownThin className="downarrow" style={{}} />
             </a>
