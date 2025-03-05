@@ -1,6 +1,6 @@
 import img1 from "../../assets/logos/AdityaBirla.svg";
 import img2 from "../../assets/logos/AirIndia.svg";
-import img3 from "../../assets/logos/Alhinds.svg";
+import img3 from "../../assets/logos/AlhindS.svg";
 import img4 from "../../assets/logos/alukkas.png";
 import img5 from "../../assets/logos/apc.png";
 import img6 from "../../assets/logos/asianet.png";
