@@ -21,7 +21,9 @@ function ImageSection() {
           </div>
           <div className="imageSection-container-left-brand">
             our brands{" "}
-            <PiArrowCircleDownThin className="downarrow" style={{}} />
+            <a href="#clients">
+              <PiArrowCircleDownThin className="downarrow" style={{}} />
+            </a>
           </div>
         </div>
         <Count />

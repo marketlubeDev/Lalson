@@ -8,8 +8,11 @@ import IMG7 from "../../assets/product/radio.webp";
 import IMG8 from "../../assets/product/stainberge.webp";
 import IMG9 from "../../assets/product/studioMaster.webp";
 import IMG10 from "../../assets/product/videoProject.webp";
+import { useState } from "react";
 
 function OurWorkMobile() {
+  const [activeIndex, setActiveIndex] = useState(null);
+
   const products = [
     { img: IMG1, name: "Amplifier", span: 12 },
     { img: IMG2, name: "Counter", span: 12 },
@@ -23,6 +26,10 @@ function OurWorkMobile() {
     { img: IMG10, name: "Video Projector", span: 12 },
   ];
 
+  const handleClick = (index) => {
+    setActiveIndex(activeIndex === index ? null : index);
+  };
+
   return (
     <section className="ourWorks" id="projects">
       <div className="ourWorks-container">
@@ -31,11 +38,12 @@ function OurWorkMobile() {
           {products.map((product, index) => (
             <div
               key={index}
-              className="card"
+              className={`card ${activeIndex === index ? "active" : ""}`}
               style={{
                 gridRow: `span ${product.span}`,
                 position: "relative",
               }}
+              onClick={() => handleClick(index)}
             >
               <img
                 src={product.img}

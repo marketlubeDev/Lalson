@@ -1032,7 +1032,6 @@ a {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
 .card {
   width: 100%;
   background-color: rgb(255, 255, 255);
@@ -1049,11 +1048,6 @@ a {
   object-fit: contain;
   object-position: center;
 }
-
-.card {
-  overflow: hidden;
-}
-
 .card .product-name {
   position: absolute;
   bottom: -40px;
@@ -1065,9 +1059,15 @@ a {
   text-align: center;
   transition: bottom 0.3s ease;
 }
-
-.card:hover .product-name {
-  bottom: 0;
+@media (min-width: 768px) {
+  .card:hover .product-name {
+    bottom: 0;
+  }
+}
+@media (max-width: 767px) {
+  .card.active .product-name {
+    bottom: 0;
+  }
 }
 
 .product-name {
@@ -1673,6 +1673,7 @@ a {
   transition: 0.3s ease-in-out;
   font-size: 1.5rem;
   font-weight: 500;
+  width: fit-content;
 }
 @media only screen and (max-width: 575.98px) {
   .footer-address .contact-info a {

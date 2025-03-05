@@ -12,13 +12,13 @@ import IMG10 from "../../assets/product/videoProject.webp";
 function OurWork() {
   const products = [
     { img: IMG1, name: "Mixer Amplifiers", span: 10 },
-    { img: IMG2, name: "Counter Communication System", span: 15 },
-    { img: IMG3, name: "In wall Home Cinema speakers", span: 10 },
+    { img: IMG2, name: "Counter System", span: 15 },
+    { img: IMG3, name: "In wall speakers", span: 10 },
     { img: IMG4, name: "Electric Fans", span: 15 },
     { img: IMG5, name: "Digital Mixer", span: 10 },
-    { img: IMG6, name: "PA Microphones Wireless Microphones", span: 10 },
+    { img: IMG6, name: "PA System", span: 10 },
     { img: IMG7, name: "Radio", span: 15 },
-    { img: IMG8, name: "STEINBERG USB audio interface", span: 15 },
+    { img: IMG8, name: "STEINBERG ", span: 15 },
     { img: IMG9, name: "STUDIOMASTER", span: 10 },
     { img: IMG10, name: "Video Projector", span: 10 },
   ];

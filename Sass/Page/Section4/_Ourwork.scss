@@ -95,10 +95,8 @@
   //   grid-template-columns: repeat(4, 1fr);
   //   // padding: 1rem;
   // }
-  // @include mix.respond(bigTablets) {
-  //   grid-template-columns: repeat(5, 1fr);
-  //   // padding: 1rem;
-  // }
+  @include mix.respond(bigTablets) {
+  }
 }
 
 .card {
@@ -117,26 +115,34 @@
     object-fit: contain;
     object-position: center;
   }
-}
-.card {
-  overflow: hidden;
+
+  .product-name {
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    transition: bottom 0.3s ease;
+  }
+
+  // Hover effect only for desktop/larger screens
+  @media (min-width: 768px) {
+    &:hover .product-name {
+      bottom: 0;
+    }
+  }
+
+  // Click/active effect for mobile
+  @media (max-width: 767px) {
+    &.active .product-name {
+      bottom: 0;
+    }
+  }
 }
 
-.card .product-name {
-  position: absolute;
-  bottom: -40px;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.7);
-  color: white;
-  padding: 10px;
-  text-align: center;
-  transition: bottom 0.3s ease;
-}
-
-.card:hover .product-name {
-  bottom: 0;
-}
 .product-name {
   font-size: 1rem;
   font-weight: 500;

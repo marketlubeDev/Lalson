@@ -314,6 +314,7 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+
     @include mix.respond(smallPhone) {
       gap: 0.5rem;
     }
@@ -333,6 +334,7 @@
       transition: 0.3s ease-in-out;
       font-size: 1.5rem;
       font-weight: 500;
+      width: fit-content;
       @include mix.respond(smallPhone) {
         font-size: 0.9rem;
       }

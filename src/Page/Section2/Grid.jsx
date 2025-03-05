@@ -40,7 +40,7 @@ function Grid() {
   ];
 
   return (
-    <div className="sectionSix-grid">
+    <div className="sectionSix-grid" id="clients">
       <div className="sectionSix-grid-main">
         {images.map((img, index) => (
           <div
