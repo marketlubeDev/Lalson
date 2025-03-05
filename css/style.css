@@ -1033,7 +1033,9 @@ a {
 
 .card {
   width: 100%;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  border-radius: 1rem;
   grid-row: span 20;
   height: auto;
   overflow: hidden;
@@ -1042,8 +1044,35 @@ a {
 .card img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: center 0rem;
+  object-fit: contain;
+  object-position: center;
+}
+
+.card {
+  overflow: hidden;
+}
+
+.card .product-name {
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  transition: bottom 0.3s ease;
+}
+
+.card:hover .product-name {
+  bottom: 0;
+}
+
+.product-name {
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .curious {
@@ -1719,6 +1748,36 @@ a {
 }
 .footer-address .social-links .social-link .social-circle:hover {
   opacity: 0.9;
+}
+
+.footer-open-close {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+@media only screen and (max-width: 575.98px) {
+  .footer-open-close {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .footer-open-close {
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .footer-open-close {
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .footer-open-close {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
+  .footer-open-close {
+    font-size: 1.2rem;
+  }
 }
 
 .header {

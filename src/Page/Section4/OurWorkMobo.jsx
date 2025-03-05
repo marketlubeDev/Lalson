@@ -1,154 +1,51 @@
-import IMG1 from "../../assets/service/IMg.jpg";
-import IMG2 from "../../assets/service/IMg-1.jpg";
-import IMG3 from "../../assets/service/IMg-2.jpg";
-import IMG4 from "../../assets/service/IMg-3.jpg";
-import IMG5 from "../../assets/service/IMg-4.jpg";
-import IMG6 from "../../assets/service/IMg-5.jpg";
-import IMG7 from "../../assets/service/IMg-6.jpg";
-import IMG8 from "../../assets/service/IMg-7.jpg";
-import IMG9 from "../../assets/service/IMg-8.jpg";
-import IMG10 from "../../assets/service/IMg-9.jpg";
+import IMG1 from "../../assets/product/amplifier.webp";
+import IMG2 from "../../assets/product/counter.webp";
+import IMG3 from "../../assets/product/inWall.webp";
+import IMG4 from "../../assets/product/fan.webp";
+import IMG5 from "../../assets/product/mixer.webp";
+import IMG6 from "../../assets/product/PA.webp";
+import IMG7 from "../../assets/product/radio.webp";
+import IMG8 from "../../assets/product/stainberge.webp";
+import IMG9 from "../../assets/product/studioMaster.webp";
+import IMG10 from "../../assets/product/videoProject.webp";
 
 function OurWorkMobile() {
+  const products = [
+    { img: IMG1, name: "Amplifier", span: 12 },
+    { img: IMG2, name: "Counter", span: 12 },
+    { img: IMG3, name: "In Wall Speaker", span: 12 },
+    { img: IMG4, name: "Fan", span: 12 },
+    { img: IMG5, name: "Mixer", span: 12 },
+    { img: IMG6, name: "PA System", span: 12 },
+    { img: IMG7, name: "Radio", span: 12 },
+    { img: IMG8, name: "Steinberg", span: 12 },
+    { img: IMG9, name: "Studio Master", span: 12 },
+    { img: IMG10, name: "Video Projector", span: 12 },
+  ];
+
   return (
     <section className="ourWorks" id="projects">
       <div className="ourWorks-container">
-        <h1 className="ourWorks-container-title">Our Works</h1>
+        <h1 className="ourWorks-container-title">Our Products</h1>
         <div className="grid-section" id="home">
-          <div
-            className="card"
-            style={{
-              gridRow: "span 12",
-            }}
-          >
-            <img
-              src={IMG1}
-              alt="Project 1"
-              className="card-image"
-              loading="lazy"
-            />
-          </div>
-
-          <div
-            className="card"
-            style={{
-              gridRow: "span 12",
-            }}
-          >
-            <img
-              src={IMG2}
-              alt="Project 2"
-              className="card-image"
-              loading="lazy"
-            />
-          </div>
-          <div
-            className="card"
-            style={{
-              gridRow: "span 12",
-            }}
-          >
-            <img
-              src={IMG3}
-              alt="Project 1"
-              className="card-image"
-              loading="lazy"
-            />
-          </div>
-
-          <div
-            className="card"
-            style={{
-              gridRow: "span 12",
-            }}
-          >
-            <img
-              src={IMG4}
-              alt="Project 1"
-              className="card-image"
-              loading="lazy"
-            />
-          </div>
-          <div
-            className="card"
-            style={{
-              gridRow: "span 12",
-            }}
-          >
-            <img
-              src={IMG5}
-              alt="Project 1"
-              className="card-image"
-              loading="lazy"
-            />
-          </div>
-
-          <div
-            className="card"
-            style={{
-              gridRow: "span 12",
-            }}
-          >
-            <img
-              src={IMG6}
-              alt="Project 1"
-              className="card-image"
-              loading="lazy"
-            />
-          </div>
-          <div
-            className="card"
-            style={{
-              gridRow: "span 12",
-            }}
-          >
-            <img
-              src={IMG7}
-              alt="Project 1"
-              className="card-image"
-              loading="lazy"
-            />
-          </div>
-          <div
-            className="card"
-            style={{
-              gridRow: "span 12",
-            }}
-          >
-            <img
-              src={IMG8}
-              alt="Project 1"
-              className="card-image"
-              loading="lazy"
-            />
-          </div>
-          <div
-            className="card"
-            style={{
-              gridRow: "span 12",
-            }}
-          >
-            <img
-              src={IMG9}
-              alt="Project 1"
-              className="card-image"
-              loading="lazy"
-            />
-          </div>
-
-          <div
-            className="card"
-            style={{
-              gridRow: "span 12",
-            }}
-          >
-            <img
-              src={IMG10}
-              alt="Project 10"
-              className="card-image"
-              loading="lazy"
-            />
-          </div>
+          {products.map((product, index) => (
+            <div
+              key={index}
+              className="card"
+              style={{
+                gridRow: `span ${product.span}`,
+                position: "relative",
+              }}
+            >
+              <img
+                src={product.img}
+                alt={product.name}
+                className="card-image"
+                loading="lazy"
+              />
+              <div className="product-name">{product.name}</div>
+            </div>
+          ))}
         </div>
       </div>
     </section>

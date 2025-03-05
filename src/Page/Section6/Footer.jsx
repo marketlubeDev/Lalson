@@ -46,7 +46,7 @@ function Footer() {
                 <br />
                 673001
               </p>
-              <div>Open 10am ⋅ Closes 6pm</div>
+              <div className="footer-open-close">Open 10am ⋅ Closes 6pm</div>
             </div>
             <div className="contact-info">
               <a href="mailto:lalsonscalicut@gmail.com">
