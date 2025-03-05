@@ -11,7 +11,7 @@ function Count() {
     { value: 10, label: "Certified Engineers", suffix: "+" },
     { value: 2000, label: "Happy Clients", suffix: "+" },
     { value: 14, label: "States", suffix: "+" },
-    { value: 300, label: "Projects Done", suffix: "+" },
+    { value: 300, label: "Projects", suffix: "+" },
   ];
 
   return (

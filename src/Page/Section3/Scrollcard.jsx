@@ -26,7 +26,7 @@ const obj = [
     img: IMG4,
     color: "#ffffff",
     desc: "Expert installation of high-quality equipment for superior sound and visuals.",
-    title: "Installation of Equipments",
+    title: "Installation of Equipment",
     span: "3",
     type: "gray",
   },

@@ -26,7 +26,7 @@ function OurWork() {
   return (
     <section className="ourWorks" id="projects">
       <div className="ourWorks-container">
-        <h1 className="ourWorks-container-title">Our Products</h1>
+        <h1 className="ourWorks-container-title">Our Product Line</h1>
         <div className="grid-section">
           {products.map((product, index) => (
             <div
