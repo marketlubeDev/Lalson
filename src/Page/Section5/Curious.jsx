@@ -6,7 +6,9 @@ function Curious() {
       </div>
       <div className="curious-right">
         <h4 className="curious-right-title">CONTACT</h4>
-        <button className="curious-right-btn">Get in touch</button>
+        <a href="https://wa.me/+918139813883" className="curious-right-btn">
+          Get in touch
+        </a>
       </div>
     </div>
   );
