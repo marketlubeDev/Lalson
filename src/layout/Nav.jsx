@@ -48,7 +48,7 @@ function Nav() {
             Projects
           </a>
           <a
-            href="https://wa.me/911237896540"
+            href="https://wa.me/+918139813883"
             target="_blank"
             rel="noopener noreferrer"
             className="nav-link nav-link--contact"
