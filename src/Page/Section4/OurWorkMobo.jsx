@@ -1,29 +1,29 @@
-import IMG1 from "../../assets/product/amplifier.webp";
-import IMG2 from "../../assets/product/counter.webp";
-import IMG3 from "../../assets/product/inWall.webp";
-import IMG4 from "../../assets/product/fan.webp";
-import IMG5 from "../../assets/product/mixer.webp";
-import IMG6 from "../../assets/product/PA.webp";
-import IMG7 from "../../assets/product/radio.webp";
-import IMG8 from "../../assets/product/stainberge.webp";
-import IMG9 from "../../assets/product/studioMaster.webp";
-import IMG10 from "../../assets/product/videoProject.webp";
+import IMG1 from "../../assets/product/1.jpg";
+import IMG2 from "../../assets/product/2.jpg";
+import IMG3 from "../../assets/product/3.jpg";
+import IMG4 from "../../assets/product/4.jpg";
+import IMG5 from "../../assets/product/5.jpg";
+import IMG6 from "../../assets/product/6.jpg";
+import IMG7 from "../../assets/product/7.jpg";
+import IMG8 from "../../assets/product/8.jpg";
+import IMG9 from "../../assets/product/9.jpg";
+import IMG10 from "../../assets/product/10.jpg";
 import { useState } from "react";
 
 function OurWorkMobile() {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const products = [
-    { img: IMG1, name: "Amplifier", span: 12 },
-    { img: IMG2, name: "Counter", span: 12 },
-    { img: IMG3, name: "In Wall Speaker", span: 12 },
-    { img: IMG4, name: "Fan", span: 12 },
-    { img: IMG5, name: "Mixer", span: 12 },
-    { img: IMG6, name: "PA System", span: 12 },
-    { img: IMG7, name: "Radio", span: 12 },
-    { img: IMG8, name: "Steinberg", span: 12 },
-    { img: IMG9, name: "Studio Master", span: 12 },
-    { img: IMG10, name: "Video Projector", span: 12 },
+    { img: IMG1, name: "Lectern or Podium", span: 12 },
+    { img: IMG2, name: "In wall speakers", span: 12 },
+    { img: IMG3, name: "Electric Fans", span: 12 },
+    { img: IMG4, name: "Sing Along karaoke", span: 12 },
+    { img: IMG5, name: "HDMI cables", span: 12 },
+    { img: IMG6, name: "STUDIOMASTER ", span: 12 },
+    { img: IMG7, name: "Speakers", span: 12 },
+    { img: IMG8, name: "Video Projector ", span: 12 },
+    { img: IMG9, name: "Radio", span: 12 },
+    { img: IMG10, name: "Counter Communication", span: 12 },
   ];
 
   const handleClick = (index) => {

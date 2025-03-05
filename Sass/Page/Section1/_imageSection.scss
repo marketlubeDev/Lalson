@@ -31,7 +31,7 @@
   &-container {
     display: flex;
     justify-content: space-between;
-    padding: 7rem;
+    padding: 7rem 10rem 7rem 10rem;
 
     @include mix.respond(smallPhone) {
       display: flex;
@@ -50,7 +50,13 @@
       padding: 2rem;
     }
     @include mix.respond(bigTablets) {
-      padding: 3rem;
+      padding: 3rem 6rem;
+    }
+    @include mix.respond(desktop) {
+      padding: 7rem 8rem 7rem 8rem;
+    }
+    @include mix.respond(bigDesktop) {
+      padding: 7rem 8rem 7rem 8rem;
     }
 
     &-left {
@@ -114,11 +120,11 @@
           display: flex;
           align-items: center;
           justify-content: center;
-          width: 38rem;
+          width: 33rem;
         }
         @include mix.respond(desktop) {
           font-size: 3.2rem;
-          width: 38rem;
+          width: 36rem;
         }
         @include mix.respond(bigDesktop) {
           font-size: 3.5rem;
