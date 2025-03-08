@@ -181,27 +181,27 @@
 
   @include mix.respond(smallPhone) {
     line-height: 2rem;
-    height: 35vh;
+    // height: 35vh;
   }
 
   @include mix.respond(phone) {
     line-height: 3rem;
-    height: 35vh;
+    // height: 35vh;
   }
 
   @include mix.respond(tablets) {
     line-height: 3.2rem;
-    height: 35vh;
+    // height: 35vh;
   }
 
   @include mix.respond(bigTablets) {
     line-height: 3.2rem;
-    height: 35vh;
+    // height: 35vh;
   }
 
   @include mix.respond(desktop) {
     line-height: 3.4rem;
-    height: 35vh;
+    // height: 35vh;
   }
 }
 

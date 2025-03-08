@@ -35,16 +35,32 @@ function Nav() {
           </div>
         </div>
         <nav className="header__nav">
-          <a onClick={(e) => smoothScroll(e, "#home")} className="nav-link">
+          <a
+            onClick={(e) => smoothScroll(e, "#home")}
+            className="nav-link"
+            style={{ fontWeight: 200 }}
+          >
             Home
           </a>
-          <a onClick={(e) => smoothScroll(e, "#about")} className="nav-link">
+          <a
+            onClick={(e) => smoothScroll(e, "#about")}
+            className="nav-link"
+            style={{ fontWeight: 200 }}
+          >
             About
           </a>
-          <a onClick={(e) => smoothScroll(e, "#service")} className="nav-link">
+          <a
+            onClick={(e) => smoothScroll(e, "#service")}
+            className="nav-link"
+            style={{ fontWeight: 200 }}
+          >
             Service
           </a>
-          <a onClick={(e) => smoothScroll(e, "#projects")} className="nav-link">
+          <a
+            onClick={(e) => smoothScroll(e, "#projects")}
+            className="nav-link"
+            style={{ fontWeight: 200 }}
+          >
             Projects
           </a>
           <a
@@ -52,6 +68,7 @@ function Nav() {
             target="_blank"
             rel="noopener noreferrer"
             className="nav-link nav-link--contact"
+            style={{ fontWeight: 600 }}
           >
             Contact
           </a>
@@ -110,17 +127,29 @@ function Nav() {
                 <a
                   href="https://www.facebook.com/share/16Etpa2YQ8/"
                   className="social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <div className="social-circle-mobile">
                     <FaFacebookF />
                   </div>
                 </a>
-                <a href="https://www.instagram.com/" className="social-link">
+                <a
+                  href="https://www.instagram.com/"
+                  className="social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <div className="social-circle-mobile">
                     <FaInstagram />
                   </div>
                 </a>
-                <a href="https://wa.me/+918139813883" className="social-link">
+                <a
+                  href="https://wa.me/+918139813883"
+                  className="social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <div className="social-circle-mobile">
                     <FaWhatsapp />
                   </div>
@@ -133,17 +162,29 @@ function Nav() {
           <a
             href="https://www.facebook.com/share/16Etpa2YQ8/"
             className="social-link"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <div className="social-circle">
               <FaFacebookF />
             </div>
           </a>
-          <a href="https://www.instagram.com/" className="social-link">
+          <a
+            href="https://www.instagram.com/"
+            className="social-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <div className="social-circle">
               <FaInstagram />
             </div>
           </a>
-          <a href="https://wa.me/+918139813883" className="social-link">
+          <a
+            href="https://wa.me/+918139813883"
+            className="social-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <div className="social-circle">
               <FaWhatsapp />
             </div>
