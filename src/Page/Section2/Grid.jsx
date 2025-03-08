@@ -52,7 +52,7 @@ function Grid() {
               alignItems: "center",
             }}
           >
-            <img src={img} alt="" height={100} width={100} />
+            <img src={img} alt="" height={108} width={108} />
           </div>
         ))}
       </div>
