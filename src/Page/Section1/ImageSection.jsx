@@ -12,6 +12,14 @@ function ImageSection() {
             <h1 className="large-text">Audio Visual</h1>
             <h2 className="small-text2">Partner</h2>
           </div>
+          <a
+            href="https://wa.me/+918139813883"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="enquiry-button"
+          >
+            Enquiry Now
+          </a>
         </div>
       </div>
       <div className="imageSection-container" id="about">

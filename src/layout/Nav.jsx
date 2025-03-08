@@ -53,7 +53,7 @@ function Nav() {
             rel="noopener noreferrer"
             className="nav-link nav-link--contact"
           >
-            Enquiry Now
+            Contact
           </a>
         </nav>
         <div className="navigation">
@@ -93,7 +93,7 @@ function Nav() {
                   rel="noopener noreferrer"
                   className="navbtn"
                 >
-                  Enquiry Now
+                  Contact
                 </a>
               </li>
               <div
