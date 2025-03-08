@@ -10,7 +10,7 @@
   align-items: center;
 
   @include mix.respond(smallPhone) {
-    height: 90vh;
+    height: 68vh;
     align-items: start;
   }
   @include mix.respond(tablets) {
