@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function About() {
   return (
@@ -13,7 +14,7 @@ export default function About() {
         </p>
 
         <button className="about-container-content-button">
-          <a href="">About Us</a>
+          <Link to="/about-detail">About Us</Link>
         </button>
       </div>
     </div>

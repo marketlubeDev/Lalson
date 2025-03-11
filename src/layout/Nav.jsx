@@ -26,7 +26,7 @@ function Nav() {
         <div className="header__logo">
           <div className="logo-text">
             <img
-              onClick={(e) => smoothScroll(e, "#home")}
+              onClick={() => (window.location.href = "/")}
               src={logo}
               alt="LALSONS Electronics"
               className="logo-image"
