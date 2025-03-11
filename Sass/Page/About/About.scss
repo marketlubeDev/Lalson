@@ -1,3 +1,5 @@
+@use "../../base/responsive" as responsive;
+
 .about-container {
   background-color: black;
   color: white;
@@ -7,6 +9,19 @@
   justify-content: center;
   height: fit-content;
   padding: 5rem;
+
+  @include responsive.respond(smallPhone) {
+    padding: 2rem;
+  }
+  @include responsive.respond(phone) {
+    padding: 3rem;
+  }
+  @include responsive.respond(tablets) {
+    padding: 4rem;
+  }
+  @include responsive.respond(bigTablets) {
+    padding: 5rem;
+  }
 
   &-content {
     display: flex;
@@ -25,6 +40,31 @@
       line-height: 1.5;
       letter-spacing: -0.18px;
       margin-bottom: 32px;
+
+      @include responsive.respond(smallPhone) {
+        font-size: 12px;
+        margin-bottom: 18px;
+      }
+      @include responsive.respond(phone) {
+        font-size: 14px;
+        margin-bottom: 24px;
+      }
+      @include responsive.respond(tablets) {
+        font-size: 16px;
+        margin-bottom: 28px;
+      }
+      @include responsive.respond(bigTablets) {
+        font-size: 18px;
+        margin-bottom: 30px;
+      }
+      @include responsive.respond(desktop) {
+        font-size: 24px;
+        margin-bottom: 32px;
+      }
+      @include responsive.respond(bigDesktop) {
+        font-size: 26px;
+        margin-bottom: 36px;
+      }
     }
 
     &-text {
@@ -34,10 +74,31 @@
       color: #808080;
       line-height: 1.2;
       letter-spacing: -1.2px;
+      margin-bottom: 80px;
       strong {
         color: white;
       }
-      margin-bottom: 80px;
+      @include responsive.respond(smallPhone) {
+        font-size: 1.2rem;
+        margin-bottom: 40px;
+      }
+      @include responsive.respond(phone) {
+        font-size: 1.5rem;
+        margin-bottom: 40px;
+      }
+      @include responsive.respond(tablets) {
+        font-size: 1.8rem;
+        margin-bottom: 40px;
+      }
+      @include responsive.respond(bigTablets) {
+        font-size: 2rem;
+      }
+      @include responsive.respond(desktop) {
+        font-size: 3rem;
+      }
+      @include responsive.respond(bigDesktop) {
+        font-size: 3rem;
+      }
     }
 
     &-button {
@@ -51,6 +112,31 @@
       font-size: 20px;
       line-height: 1.5;
       letter-spacing: -0.6px;
+
+      @include responsive.respond(smallPhone) {
+        padding: 6px 14px;
+        font-size: 12px;
+      }
+      @include responsive.respond(phone) {
+        padding: 8px 16px;
+        font-size: 14px;
+      }
+      @include responsive.respond(tablets) {
+        padding: 9px 20px;
+        font-size: 16px;
+      }
+      @include responsive.respond(bigTablets) {
+        padding: 10px 22px;
+        font-size: 18px;
+      }
+      @include responsive.respond(desktop) {
+        padding: 10px 25px;
+        font-size: 20px;
+      }
+      @include responsive.respond(bigDesktop) {
+        padding: 10px 25px;
+        font-size: 20px;
+      }
     }
   }
 }
