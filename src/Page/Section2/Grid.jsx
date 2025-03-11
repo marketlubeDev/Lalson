@@ -16,6 +16,7 @@ import img15 from "../../assets/logos/nits.svg";
 import img16 from "../../assets/logos/parag.png";
 import img17 from "../../assets/logos/pplr.png";
 import img18 from "../../assets/logos/Taj.svg";
+import { PiArrowCircleDownThin } from "react-icons/pi";
 
 function Grid() {
   const images = [
@@ -41,6 +42,12 @@ function Grid() {
 
   return (
     <div className="sectionSix-grid" id="clients">
+      <div className="sectionSix-grid-brand">
+        Our Brands{" "}
+        <a href="#clients">
+          <PiArrowCircleDownThin className="downarrow" />
+        </a>
+      </div>
       <div className="sectionSix-grid-main">
         {images.map((img, index) => (
           <div

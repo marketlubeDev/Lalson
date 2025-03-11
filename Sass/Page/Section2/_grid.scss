@@ -48,6 +48,18 @@
       }
     }
 
+    &-brand {
+      display: flex;
+      align-items: center;
+      justify-content: left;
+      gap: 1rem;
+      margin-bottom: 2rem;
+      color: white;
+      font-weight: 200;
+      font-size: 20px;
+      gap: 10px;
+    }
+
     &-item {
       height: 8rem;
       background-color: #7e7e7e;
@@ -78,5 +90,29 @@
 
   .sectionSix-grid-item:nth-child(-n + 8) {
     display: block;
+  }
+}
+
+.downarrow {
+  font-size: 3.5rem;
+  cursor: pointer;
+
+  @include mix.respond(smallPhone) {
+    font-size: 2.5rem;
+  }
+  @include mix.respond(phone) {
+    font-size: 2.5rem;
+  }
+
+  @include mix.respond(tablets) {
+    font-size: 3rem;
+  }
+
+  @include mix.respond(bigTablets) {
+    font-size: 3rem;
+  }
+
+  @include mix.respond(desktop) {
+    font-size: 4rem;
   }
 }

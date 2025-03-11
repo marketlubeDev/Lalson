@@ -142,29 +142,29 @@
   }
 }
 
-.downarrow {
-  font-size: 4.4rem;
-  cursor: pointer;
+// .downarrow {
+//   font-size: 4.4rem;
+//   cursor: pointer;
 
-  @include mix.respond(smallPhone) {
-    font-size: 2.5rem;
-  }
-  @include mix.respond(phone) {
-    font-size: 2.5rem;
-  }
+//   @include mix.respond(smallPhone) {
+//     font-size: 2.5rem;
+//   }
+//   @include mix.respond(phone) {
+//     font-size: 2.5rem;
+//   }
 
-  @include mix.respond(tablets) {
-    font-size: 3rem;
-  }
+//   @include mix.respond(tablets) {
+//     font-size: 3rem;
+//   }
 
-  @include mix.respond(bigTablets) {
-    font-size: 3rem;
-  }
+//   @include mix.respond(bigTablets) {
+//     font-size: 3rem;
+//   }
 
-  @include mix.respond(desktop) {
-    font-size: 4rem;
-  }
-}
+//   @include mix.respond(desktop) {
+//     font-size: 4rem;
+//   }
+// }
 
 .banner-container {
   display: flex;

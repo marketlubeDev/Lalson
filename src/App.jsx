@@ -8,13 +8,14 @@ import Curious from "./Page/Section5/Curious";
 import Footer from "./Page/Section6/Footer";
 import OurWorkMobile from "./Page/Section4/OurWorkMobo";
 import Nav from "./layout/Nav";
-
+import About from "./Page/About/About";
 function App() {
   const isMobile = useMediaQuery({ maxWidth: 767 });
   return (
     <>
       <Nav />
       <ImageSection />
+      <About />
       <Grid />
       <Scrollcard />
       {isMobile ? <OurWorkMobile /> : <OurWork />}
