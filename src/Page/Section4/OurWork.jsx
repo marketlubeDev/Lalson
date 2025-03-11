@@ -11,16 +11,16 @@ import IMG10 from "../../assets/product/10.jpg";
 
 function OurWork() {
   const products = [
-    { img: IMG1, name: "Lectern or Podium", span: 10 },
-    { img: IMG2, name: "In wall speakers", span: 15 },
-    { img: IMG3, name: "Electric Fans", span: 10 },
-    { img: IMG4, name: "Sing Along karaoke", span: 15 },
-    { img: IMG5, name: "HDMI cables", span: 10 },
-    { img: IMG6, name: "STUDIOMASTER ", span: 10 },
-    { img: IMG7, name: "Speakers", span: 15 },
-    { img: IMG8, name: "Video Projector ", span: 15 },
-    { img: IMG9, name: "Radio", span: 10 },
-    { img: IMG10, name: "Counter Communication", span: 10 },
+    { img: IMG1, name: "air curtain", span: 10 },
+    { img: IMG2, name: "Ceiling Mount Speakers", span: 15 },
+    { img: IMG3, name: "digital Mixer", span: 10 },
+    { img: IMG4, name: "mixer Amplifier", span: 15 },
+    { img: IMG5, name: "video Projector", span: 10 },
+    { img: IMG6, name: "wall Mount Speaker ", span: 10 },
+    { img: IMG7, name: "wireless Microhpone", span: 15 },
+    { img: IMG8, name: "Exhaust fan", span: 15 },
+    { img: IMG9, name: "roof extractor", span: 10 },
+    { img: IMG10, name: "table fan", span: 10 },
   ];
 
   return (

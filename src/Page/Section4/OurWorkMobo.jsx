@@ -14,16 +14,16 @@ function OurWorkMobile() {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const products = [
-    { img: IMG1, name: "Lectern or Podium", span: 12 },
-    { img: IMG2, name: "In wall speakers", span: 12 },
-    { img: IMG3, name: "Electric Fans", span: 12 },
-    { img: IMG4, name: "Sing Along karaoke", span: 12 },
-    { img: IMG5, name: "HDMI cables", span: 12 },
-    { img: IMG6, name: "STUDIOMASTER ", span: 12 },
-    { img: IMG7, name: "Speakers", span: 12 },
-    { img: IMG8, name: "Video Projector ", span: 12 },
-    { img: IMG9, name: "Radio", span: 12 },
-    { img: IMG10, name: "Counter Communication", span: 12 },
+    { img: IMG1, name: "air curtain", span: 12 },
+    { img: IMG2, name: "Ceiling Mount Speakers", span: 12 },
+    { img: IMG3, name: "digital Mixer", span: 12 },
+    { img: IMG4, name: "mixer Amplifier", span: 12 },
+    { img: IMG5, name: "video Projector", span: 12 },
+    { img: IMG6, name: "wall Mount Speaker ", span: 12 },
+    { img: IMG7, name: "wireless Microhpone", span: 12 },
+    { img: IMG8, name: "Exhaust fan", span: 12 },
+    { img: IMG9, name: "roof extractor", span: 12 },
+    { img: IMG10, name: "table fan", span: 12 },
   ];
 
   const handleClick = (index) => {
