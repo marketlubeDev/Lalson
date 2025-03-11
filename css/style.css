@@ -2401,9 +2401,59 @@ a {
   background-size: cover;
   height: 60vh;
 }
+@media only screen and (max-width: 575.98px) {
+  .about-detail-container-header {
+    height: 20vh;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .about-detail-container-header {
+    height: 20vh;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .about-detail-container-header {
+    height: 45vh;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .about-detail-container-header {
+    height: 45vh;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
+  .about-detail-container-header {
+    height: 50vh;
+  }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1699.98px) {
+  .about-detail-container-header {
+    height: 55vh;
+  }
+}
 .about-detail-container-header-logo {
   width: 300px;
   height: auto;
+}
+@media only screen and (max-width: 575.98px) {
+  .about-detail-container-header-logo {
+    display: none;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .about-detail-container-header-logo {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .about-detail-container-header-logo {
+    display: none;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .about-detail-container-header-logo {
+    width: 260px;
+  }
 }
 .about-detail-container-header-title {
   color: white;
@@ -2418,8 +2468,58 @@ a {
   line-height: 1.2;
   letter-spacing: -3.2px;
 }
+@media only screen and (max-width: 575.98px) {
+  .about-detail-container-header-title {
+    font-size: 2.1rem;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .about-detail-container-header-title {
+    font-size: 3rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .about-detail-container-header-title {
+    font-size: 3.8rem;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .about-detail-container-header-title {
+    font-size: 3.8rem;
+  }
+}
 .about-detail-container-content {
   padding: 6% 10%;
+}
+@media only screen and (max-width: 575.98px) {
+  .about-detail-container-content {
+    padding: 5%;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .about-detail-container-content {
+    padding: 5%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .about-detail-container-content {
+    padding: 5%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .about-detail-container-content {
+    padding: 4% 8%;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
+  .about-detail-container-content {
+    padding: 8% 12%;
+  }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1699.98px) {
+  .about-detail-container-content {
+    padding: 10% 15%;
+  }
 }
 .about-detail-container-content-heading {
   font-size: 2rem;
@@ -2432,6 +2532,39 @@ a {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+@media only screen and (max-width: 575.98px) {
+  .about-detail-container-content-heading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .about-detail-container-content-heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .about-detail-container-content-heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .about-detail-container-content-heading {
+    font-size: 2rem;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
+  .about-detail-container-content-heading {
+    font-size: 2rem;
+  }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1699.98px) {
+  .about-detail-container-content-heading {
+    font-size: 2rem;
+  }
 }
 .about-detail-container-content-text {
   font-size: 1.5rem;
@@ -2447,15 +2580,78 @@ a {
   line-height: 36px;
   letter-spacing: 0.24px;
 }
+@media only screen and (max-width: 575.98px) {
+  .about-detail-container-content-text {
+    font-size: 1.2rem;
+    line-height: 24px;
+    letter-spacing: 0.14px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .about-detail-container-content-text {
+    font-size: 1.5rem;
+    line-height: 30px;
+    letter-spacing: 0.14px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .about-detail-container-content-text {
+    line-height: 32px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .about-detail-container-content-text {
+    line-height: 32px;
+  }
+}
 .about-detail-container-imageRow {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   gap: 2rem;
 }
+@media only screen and (max-width: 575.98px) {
+  .about-detail-container-imageRow {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 5%;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .about-detail-container-imageRow {
+    flex-direction: column !important;
+    gap: 1rem;
+    padding: 5%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .about-detail-container-imageRow {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 5%;
+  }
+}
 .about-detail-container-imageRow-card1, .about-detail-container-imageRow-card2, .about-detail-container-imageRow-card3 {
   width: calc((100% - 4rem) / 3);
   height: 600px;
+}
+@media only screen and (max-width: 575.98px) {
+  .about-detail-container-imageRow-card1, .about-detail-container-imageRow-card2, .about-detail-container-imageRow-card3 {
+    width: 100%;
+    height: 450px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .about-detail-container-imageRow-card1, .about-detail-container-imageRow-card2, .about-detail-container-imageRow-card3 {
+    width: 100%;
+    height: 450px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .about-detail-container-imageRow-card1, .about-detail-container-imageRow-card2, .about-detail-container-imageRow-card3 {
+    width: 100%;
+    height: 500px;
+  }
 }
 .about-detail-container-imageRow-card1 {
   background-image: url("../../../src/assets/Frame406.png");
@@ -2479,6 +2675,24 @@ a {
   line-height: 40px;
   letter-spacing: -0.96px;
 }
+@media only screen and (max-width: 575.98px) {
+  .about-detail-container-imageRow-card2-content {
+    font-size: 28px;
+    line-height: normal;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .about-detail-container-imageRow-card2-content {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .about-detail-container-imageRow-card2-content {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
 .about-detail-container-imageRow-card3 {
   background-image: url("../../../src/assets/Frame408.png");
   background-size: cover;
@@ -2497,6 +2711,39 @@ a {
   line-height: 1.5;
   letter-spacing: 0.24px;
   padding-left: 2rem;
+}
+@media only screen and (max-width: 575.98px) {
+  .about-detail-container-paragraph-text {
+    padding-left: 0;
+    font-size: 19.2px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .about-detail-container-paragraph-text {
+    padding-left: 0;
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .about-detail-container-paragraph-text {
+    font-size: 1.5rem;
+    padding-left: 0;
+  }
+}
+@media only screen and (max-width: 575.98px) {
+  .about-detail-container-paragraph {
+    padding: 5%;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .about-detail-container-paragraph {
+    padding: 5%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .about-detail-container-paragraph {
+    padding: 5%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
