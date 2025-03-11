@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import logo from "./../../assets/Lalisons.svg";
-import aboutSpeaker from "./../../assets/Frame406.png";
-import aboutMike from "./../../assets/Frame408.png";
 
 export default function AboutDetail() {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top of the page when the component mounts
+  }, []);
+
   return (
     <div className="about-detail-container">
       <div className="about-detail-container-header">
@@ -16,7 +18,7 @@ export default function AboutDetail() {
           We visualize sound
         </h2>
       </div>
-      <div className="about-detail-container-content">
+      <div className="about-detail-container-content" id="about-us">
         <h3 className="about-detail-container-content-heading">About us</h3>
         <p className="about-detail-container-content-text">
           We are your one-stop destination for comprehensive audio-visual

@@ -22,17 +22,11 @@ function ImageSection() {
           </a>
         </div>
       </div>
-      <div className="imageSection-container" id="about">
+      <div className="imageSection-container">
         <div className="imageSection-container-left">
           <div className="imageSection-container-left-we">
             Elevating Experiences with Sound & Vision
           </div>
-          {/* <div className="imageSection-container-left-brand">
-            Our Brands{" "}
-            <a href="#clients">
-              <PiArrowCircleDownThin className="downarrow" style={{}} />
-            </a>
-          </div> */}
         </div>
         <Count />
       </div>

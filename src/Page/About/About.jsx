@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function About() {
   return (
-    <div className="about-container">
+    <div className="about-container" id="about">
       <div className="about-container-content ">
         <h3 className="about-container-content-title">Who are we?</h3>
         <p className="about-container-content-text">
@@ -13,9 +13,9 @@ export default function About() {
           superior products and services for every environment.
         </p>
 
-        <button className="about-container-content-button">
-          <Link to="/about-detail">About Us</Link>
-        </button>
+        <Link to="/about-us" className="about-container-content-button">
+          About Us
+        </Link>
       </div>
     </div>
   );

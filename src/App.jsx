@@ -19,7 +19,7 @@ function App() {
       <>
         <Nav />
         <Routes>
-          <Route path="/about-detail" element={<AboutDetail />} />
+          <Route path="/about-us" element={<AboutDetail />} />
           <Route
             path="/"
             element={

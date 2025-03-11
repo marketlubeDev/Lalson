@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import logo from "./../assets/Lalisons.svg";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
@@ -13,13 +13,37 @@ function Nav() {
 
   const smoothScroll = (e, targetId) => {
     e.preventDefault();
-    const target = document.querySelector(targetId);
-    if (target) {
-      target.scrollIntoView({ behavior: "smooth" });
+    if (window.location.pathname !== "/") {
+      window.location.href = "/#" + targetId.substring(1);
+    } else {
+      const target = document.querySelector(targetId);
+      if (target) {
+        target.scrollIntoView({ behavior: "smooth" });
+      }
     }
     setIsChecked(false);
     document.body.classList.remove("no-scroll");
   };
+
+  useEffect(() => {
+    const handleHashChange = () => {
+      const targetId = window.location.hash;
+      if (targetId) {
+        const target = document.querySelector(targetId);
+        if (target) {
+          target.scrollIntoView({ behavior: "smooth" });
+        }
+      }
+    };
+
+    handleHashChange();
+    window.addEventListener("hashchange", handleHashChange);
+
+    return () => {
+      window.removeEventListener("hashchange", handleHashChange);
+    };
+  }, []);
+
   return (
     <header className="header">
       <div className="header__container">

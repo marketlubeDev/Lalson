@@ -2294,7 +2294,7 @@ a {
   letter-spacing: -3.2px;
 }
 .about-detail-container-content {
-  padding: 10%;
+  padding: 6% 10%;
 }
 .about-detail-container-content-heading {
   font-size: 2rem;
@@ -2360,7 +2360,7 @@ a {
   background-position: top;
 }
 .about-detail-container-paragraph {
-  padding: 10%;
+  padding: 6% 10%;
   padding-left: calc((100% - 4rem) / 3);
 }
 .about-detail-container-paragraph-text {
