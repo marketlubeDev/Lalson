@@ -2397,7 +2397,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("../../../src/assets/Frame402.png");
+  background-image: url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1741700044/Frame402_lobwua.png");
   background-size: cover;
   height: 60vh;
 }
@@ -2654,7 +2654,7 @@ a {
   }
 }
 .about-detail-container-imageRow-card1 {
-  background-image: url("../../../src/assets/Frame406.png");
+  background-image: url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1741700042/Frame406_tzu0ac.png");
   background-size: cover;
   background-position: top;
 }
@@ -2694,7 +2694,7 @@ a {
   }
 }
 .about-detail-container-imageRow-card3 {
-  background-image: url("../../../src/assets/Frame408.png");
+  background-image: url("https://res.cloudinary.com/dzuqczvb7/image/upload/v1741700043/Frame408_ugjkxg.png");
   background-size: cover;
   background-position: top;
 }
