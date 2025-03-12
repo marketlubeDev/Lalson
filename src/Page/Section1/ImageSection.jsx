@@ -18,7 +18,7 @@ function ImageSection() {
             rel="noopener noreferrer"
             className="enquiry-button"
           >
-            Enquiry Now
+            Enquire now
           </a>
         </div>
       </div>
