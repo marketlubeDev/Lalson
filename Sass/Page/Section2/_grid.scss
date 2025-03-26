@@ -62,9 +62,13 @@
 
     &-item {
       height: 8rem;
-      background-color: #7e7e7e;
+      background-color: #d9d7d7;
       transition: opacity 0.3s ease;
       border-radius: 5px;
+
+      &:hover {
+        background-color: #ffffff;
+      }
 
       @include mix.respond(smallPhone) {
         height: 8rem;
