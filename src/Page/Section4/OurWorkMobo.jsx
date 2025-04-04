@@ -1,29 +1,29 @@
-import IMG1 from "../../assets/product/1.jpg";
-import IMG2 from "../../assets/product/2.jpg";
-import IMG3 from "../../assets/product/3.avif";
-import IMG4 from "../../assets/product/4.avif";
-import IMG5 from "../../assets/product/5.jpg";
-import IMG6 from "../../assets/product/6.avif";
-import IMG7 from "../../assets/product/7.avif";
-import IMG8 from "../../assets/product/8.jpg";
-import IMG9 from "../../assets/product/9.jpg";
-import IMG10 from "../../assets/product/10.jpg";
+import IMG1 from "../../assets/product/22.avif";
+import IMG2 from "../../assets/product/23.avif";
+import IMG3 from "../../assets/product/24.png";
+import IMG4 from "../../assets/product/25.jpeg";
+import IMG5 from "../../assets/product/26.jpg";
+import IMG6 from "../../assets/product/27.webp";
+import IMG7 from "../../assets/product/28.avif";
+import IMG8 from "../../assets/product/29.webp";
+import IMG9 from "../../assets/product/30.jpeg";
+import IMG10 from "../../assets/product/1.avif";
 import { useState } from "react";
 
 function OurWorkMobile() {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const products = [
-    { img: IMG1, name: "air curtain", span: 12 },
-    { img: IMG2, name: "Ceiling Mount Speakers", span: 12 },
-    { img: IMG3, name: "digital Mixer", span: 12 },
-    { img: IMG4, name: "mixer Amplifier", span: 12 },
-    { img: IMG5, name: "video Projector", span: 12 },
-    { img: IMG6, name: "wall Mount Speaker ", span: 12 },
-    { img: IMG7, name: "wireless Microhpone", span: 12 },
-    { img: IMG8, name: "Exhaust fan", span: 12 },
-    { img: IMG9, name: "roof extractor", span: 12 },
-    { img: IMG10, name: "table fan", span: 12 },
+    { img: IMG9, name: "Ceiling Speakers", span: 10 },
+    { img: IMG1, name: "Wireless Microphone System", span: 15 },
+    { img: IMG3, name: "Home Theatre", span: 10 },
+    { img: IMG4, name: "Mixers", span: 15 },
+    { img: IMG5, name: "Projectors", span: 10 },
+    { img: IMG6, name: "Power Amplifiers", span: 10 },
+    { img: IMG7, name: "Speakers", span: 15 },
+    { img: IMG8, name: "Exhaust fan", span: 15 },
+    { img: IMG2, name: "Wireless Dual Vocal System", span: 10 },
+    { img: IMG10, name: "Digital Wireless Systems", span: 10 },
   ];
 
   const handleClick = (index) => {
