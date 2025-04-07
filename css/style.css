@@ -2390,6 +2390,39 @@ a {
   }
 }
 
+.slider {
+  margin-bottom: 5rem;
+  overflow: hidden;
+  width: 100%;
+}
+
+.slide-track {
+  display: flex;
+  gap: 3rem;
+  width: 3500px;
+  animation: scroll 40s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.slide {
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slide img {
+  height: 40px;
+  object-fit: contain;
+}
+
 .about-detail-container {
   display: flex;
   flex-direction: column;

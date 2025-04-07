@@ -17,10 +17,10 @@ function OurWork() {
     { img: IMG4, name: "Mixers", span: 15 },
     { img: IMG5, name: "Projectors", span: 10 },
     { img: IMG6, name: "Power Amplifiers", span: 10 },
-    { img: IMG10, name: "Speakers", span: 15 },
+    { img: IMG10, name: "Digital Wireless Systems", span: 15 },
     { img: IMG8, name: "Exhaust fan", span: 15 },
     { img: IMG2, name: "Wireless Dual Vocal System", span: 10 },
-    { img: IMG7, name: "Digital Wireless Systems", span: 10 },
+    { img: IMG7, name: "Speakers", span: 10 },
   ];
 
   return (

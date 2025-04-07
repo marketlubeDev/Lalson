@@ -140,3 +140,45 @@
     }
   }
 }
+
+.slider {
+  // height: 100px;
+  // margin: auto;
+  // margin-top: 20px;
+  margin-bottom: 5rem;
+  overflow: hidden;
+  // position: relative;
+  width: 100%;
+}
+
+.slide-track {
+  display: flex;
+  gap: 3rem;
+  width: calc(250px * 14);
+  animation: scroll 40s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.slide {
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // border-radius: 10px;
+  // border: 1px solid #fff;
+
+  img {
+    height: 40px;
+    // width: 100%;
+    object-fit: contain;
+  }
+}
