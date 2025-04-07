@@ -15,7 +15,7 @@ export default function About() {
     "https://res.cloudinary.com/ds07e7rod/image/upload/v1744009134/images_jjvpby.png",
     "https://res.cloudinary.com/ds07e7rod/image/upload/v1744007432/sennheiser_logowhite_ojf7dj.svg",
     "https://res.cloudinary.com/ds07e7rod/image/upload/v1744005976/benq_north_america_logo.svg_vzdnjz.svg",
-    "https://res.cloudinary.com/ds07e7rod/image/upload/v1744005976/behringer_logo.svg_djwt0x.svg",
+    "https://res.cloudinary.com/ds07e7rod/image/upload/v1744009374/behringer-logo_sxmn0c.jpg",
     "https://res.cloudinary.com/ds07e7rod/image/upload/v1744009017/AKG-3300x2550pix_white_uvkjxr.jpg",
   ];
 
