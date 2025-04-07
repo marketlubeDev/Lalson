@@ -48,12 +48,13 @@ export default function AboutDetail() {
       </div>
       <div className="about-detail-container-paragraph">
         <p className="about-detail-container-paragraph-text">
-          As authorized dealers for leading brands like AHUJA, Studiomaster,
-          Yamaha, EAW, Wharfedale, Denon, Marantz, Anthem, Paradigm, Dali, JBL,
-          Optoma, BenQ, Epson, Panasonic, and many others, we ensure top-notch
-          products along with our after sales services. With our expertise and a
-          wide range of solutions, we are committed to enhancing your
-          audio-visual experiences with unmatched clarity and performance.
+          As authorized dealers in Calicut for leading brands like AHUJA,
+          Studiomaster, Yamaha, EAW, Wharfedale, Denon, Marantz, Anthem,
+          Paradigm, Dali, JBL, Optoma, BenQ, Epson, Panasonic, and many others,
+          we ensure top-notch products along with our after sales services. With
+          our expertise and a wide range of solutions, we are committed to
+          enhancing your audio-visual experiences with unmatched clarity and
+          performance.
         </p>
       </div>
     </div>
