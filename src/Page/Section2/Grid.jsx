@@ -43,7 +43,7 @@ function Grid() {
   return (
     <div className="sectionSix-grid" id="clients">
       <div className="sectionSix-grid-brand">
-        Our Brands{" "}
+        Our Clients{" "}
         <a href="#clients">
           <PiArrowCircleDownThin className="downarrow" />
         </a>
