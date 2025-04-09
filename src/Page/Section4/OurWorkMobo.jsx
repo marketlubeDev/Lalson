@@ -31,7 +31,7 @@ function OurWorkMobile() {
   };
   //
   return (
-    <section className="ourWorks" id="projects">
+    <section className="ourWorks" id="projects" style={{ marginTop: "3rem" }}>
       <div className="ourWorks-container">
         <h1 className="ourWorks-container-title">Our Product Line</h1>
         <div className="grid-section" id="home">
@@ -51,7 +51,6 @@ function OurWorkMobile() {
                 className="card-image"
                 loading="lazy"
               />
-
               <div className="product-name">{product.name}</div>
             </div>
           ))}
