@@ -133,17 +133,17 @@
   }
 
   // Hover effect only for desktop/larger screens
-  @media (max-width: 768px) {
-    .product-name {
-      bottom: 0px;
-      pointer-events: none;
+  @media (min-width: 768px) {
+    &:hover .product-name {
+      bottom: 0;
     }
   }
 
   // Click/active effect for mobile
   @media (max-width: 767px) {
-    &.active .product-name {
-      bottom: 0;
+    .product-name {
+      bottom: 0px;
+      pointer-events: none;
     }
   }
 }

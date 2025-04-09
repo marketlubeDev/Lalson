@@ -1145,15 +1145,15 @@ a {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-@media (max-width: 768px) {
-  .card .product-name {
-    bottom: 0px;
-    pointer-events: none;
+@media (min-width: 768px) {
+  .card:hover .product-name {
+    bottom: 0;
   }
 }
 @media (max-width: 767px) {
-  .card.active .product-name {
-    bottom: 0;
+  .card .product-name {
+    bottom: 0px;
+    pointer-events: none;
   }
 }
 
