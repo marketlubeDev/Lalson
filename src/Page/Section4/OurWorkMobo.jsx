@@ -29,7 +29,7 @@ function OurWorkMobile() {
   const handleClick = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
-
+  //
   return (
     <section className="ourWorks" id="projects">
       <div className="ourWorks-container">
@@ -51,6 +51,7 @@ function OurWorkMobile() {
                 className="card-image"
                 loading="lazy"
               />
+
               <div className="product-name">{product.name}</div>
             </div>
           ))}
