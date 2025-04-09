@@ -126,12 +126,17 @@
     padding: 10px;
     text-align: center;
     transition: bottom 0.3s ease;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
   }
 
   // Hover effect only for desktop/larger screens
-  @media (min-width: 768px) {
-    &:hover .product-name {
-      bottom: 0;
+  @media (max-width: 768px) {
+    .product-name {
+      bottom: 0px;
+      pointer-events: none;
     }
   }
 
@@ -141,11 +146,4 @@
       bottom: 0;
     }
   }
-}
-
-.product-name {
-  font-size: 1rem;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 1px;
 }

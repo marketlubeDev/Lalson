@@ -1140,23 +1140,21 @@ a {
   padding: 10px;
   text-align: center;
   transition: bottom 0.3s ease;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
-@media (min-width: 768px) {
-  .card:hover .product-name {
-    bottom: 0;
+@media (max-width: 768px) {
+  .card .product-name {
+    bottom: 0px;
+    pointer-events: none;
   }
 }
 @media (max-width: 767px) {
   .card.active .product-name {
     bottom: 0;
   }
-}
-
-.product-name {
-  font-size: 1rem;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 1px;
 }
 
 .curious {
