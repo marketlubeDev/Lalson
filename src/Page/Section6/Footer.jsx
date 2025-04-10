@@ -43,7 +43,7 @@ function Footer() {
                 style={{ cursor: "pointer" }}
                 onClick={(e) => smoothScroll(e, "#projects")}
               >
-                Projects
+                Products
               </a>
               {/* <a href="#testimonial">Testimonial</a> */}
               <a

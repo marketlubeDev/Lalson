@@ -85,7 +85,7 @@ function Nav() {
             className="nav-link"
             style={{ fontWeight: 200 }}
           >
-            Projects
+            Products
           </a>
           <a
             href="https://wa.me/+918139813883"

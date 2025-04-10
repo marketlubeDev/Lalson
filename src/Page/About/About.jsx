@@ -26,7 +26,13 @@ export default function About() {
         <div className="slide-track">
           {duplicatedImages.map((src, index) => (
             <div className="slide" key={index}>
-              <img src={src} alt={`slide-${index}`} />
+              <img
+                src={src}
+                alt={`slide-${index}`}
+                style={{
+                  height: index === 2 || index === 6 ? "80px" : "40px",
+                }}
+              />
             </div>
           ))}
           {duplicatedImages.map((src, index) => (
