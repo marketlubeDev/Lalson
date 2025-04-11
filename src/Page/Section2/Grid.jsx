@@ -3,7 +3,7 @@ import img2 from "../../assets/logos/AirIndia.svg";
 import img3 from "../../assets/logos/AlhindS.svg";
 import img4 from "../../assets/logos/francis.png";
 import img5 from "../../assets/logos/apc.png";
-import img6 from "../../assets/logos/iam.png";
+import img6 from "../../assets/logos/iim.svg";
 import img7 from "../../assets/logos/aster.svg";
 import img8 from "../../assets/logos/Bmh.svg";
 import img9 from "../../assets/logos/BhimaS.svg";
