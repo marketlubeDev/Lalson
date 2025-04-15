@@ -135,7 +135,7 @@ function Nav() {
                 <a onClick={(e) => smoothScroll(e, "#service")}>Service</a>
               </li>
               <li className="navigation__item">
-                <a onClick={(e) => smoothScroll(e, "#projects")}>Projects</a>
+                <a onClick={(e) => smoothScroll(e, "#projects")}>Products</a>
               </li>
               <li className="navigation__item">
                 <a
