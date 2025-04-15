@@ -74,6 +74,13 @@ function Nav() {
             About
           </a>
           <a
+            onClick={(e) => smoothScroll(e, "#clients")}
+            className="nav-link"
+            style={{ fontWeight: 200 }}
+          >
+            Clients
+          </a>
+          <a
             onClick={(e) => smoothScroll(e, "#service")}
             className="nav-link"
             style={{ fontWeight: 200 }}
@@ -120,6 +127,9 @@ function Nav() {
               </li>
               <li className="navigation__item">
                 <a onClick={(e) => smoothScroll(e, "#about")}>About</a>
+              </li>
+              <li className="navigation__item">
+                <a onClick={(e) => smoothScroll(e, "#clients")}>Clients</a>
               </li>
               <li className="navigation__item">
                 <a onClick={(e) => smoothScroll(e, "#service")}>Service</a>

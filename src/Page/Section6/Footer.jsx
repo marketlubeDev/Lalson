@@ -35,6 +35,12 @@ function Footer() {
               </a>
               <a
                 style={{ cursor: "pointer" }}
+                onClick={(e) => smoothScroll(e, "#clients")}
+              >
+                Clients
+              </a>
+              <a
+                style={{ cursor: "pointer" }}
                 onClick={(e) => smoothScroll(e, "#service")}
               >
                 Services
