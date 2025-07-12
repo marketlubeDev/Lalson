@@ -3,20 +3,20 @@ import { Link } from "react-router-dom";
 
 export default function About() {
   const images = [
-    "https://res.cloudinary.com/ds07e7rod/image/upload/v1744005973/yamaha_logo.svg_yzecl1.svg",
-    "https://res.cloudinary.com/ds07e7rod/image/upload/v1744005973/epson_do_brasil_logo.png_gjwbpb.png",
-    "https://res.cloudinary.com/ds07e7rod/image/upload/v1744005974/studiomaster_professional_logo.png_jkz5ja.png",
-    "https://res.cloudinary.com/ds07e7rod/image/upload/v1744008719/soundcraft_logo.svg_1_txau7r.svg",
-    "https://res.cloudinary.com/ds07e7rod/image/upload/v1744005973/bss_audio_logo_fjo6lx.svg",
-    "https://res.cloudinary.com/ds07e7rod/image/upload/v1744008719/panasonic_usa_logo.svg_zhnqm9.svg",
-    "https://res.cloudinary.com/ds07e7rod/image/upload/v1744005976/ahuja_and_studiomaster_products_at_the_best_price_logo.png_h4nbnp.png",
-    "https://res.cloudinary.com/ds07e7rod/image/upload/v1744008719/Logo.svg_cgcqqc.svg",
-    "https://res.cloudinary.com/ds07e7rod/image/upload/v1744005975/jvcmobile_logo.png_jt77dg.png",
-    "https://res.cloudinary.com/ds07e7rod/image/upload/v1744009134/images_jjvpby.png",
-    "https://res.cloudinary.com/ds07e7rod/image/upload/v1744007432/sennheiser_logowhite_ojf7dj.svg",
-    "https://res.cloudinary.com/ds07e7rod/image/upload/v1744005976/benq_north_america_logo.svg_vzdnjz.svg",
-    "https://res.cloudinary.com/ds07e7rod/image/upload/v1744009374/behringer-logo_sxmn0c.jpg",
-    "https://res.cloudinary.com/ds07e7rod/image/upload/v1744009017/AKG-3300x2550pix_white_uvkjxr.jpg",
+    "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Lalsonselectronics/logos/yamaha_logo.svg_yzecl1+(1).svg",
+    "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Lalsonselectronics/logos/epson_do_brasil_logo.png_.png",
+    "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Lalsonselectronics/logos/studiomaster_professional_logo.png_jkz5ja.png",
+    "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Lalsonselectronics/logos/soundcraft_logo.svg_1_txau7r.svg",
+    "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Lalsonselectronics/logos/bss_audio_logo_fjo6lx.svg",
+    "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Lalsonselectronics/logos/panasonic_usa_logo.svg_zhnqm9+(1).svg",
+    "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Lalsonselectronics/logos/ahuja_and_studiomaster.png",
+    "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Lalsonselectronics/logos/Logo.svg_cgcqqc+(1).svg",
+    "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Lalsonselectronics/logos/jvcmobile_logo.png_jt77dg.png",
+    "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Lalsonselectronics/logos/images_jjvpby.png",
+    "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Lalsonselectronics/logos/sennheiser_logowhite_ojf7dj.svg",
+    "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Lalsonselectronics/logos/benq_north_america_logo.svg_vzdnjz+(1).svg",
+    "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Lalsonselectronics/logos/behringer-logo_sxmn0c.jpg",
+    "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Lalsonselectronics/logos/AKG-3300x2550pix_white_uvkjxr.jpg",
   ];
 
   const duplicatedImages = [...images, ...images];

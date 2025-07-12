@@ -1,26 +1,55 @@
-import IMG1 from "../../assets/product/22.avif";
-import IMG2 from "../../assets/product/32.jpeg";
-import IMG3 from "../../assets/product/24.png";
-import IMG4 from "../../assets/product/25.jpeg";
-import IMG5 from "../../assets/product/26.jpg";
-import IMG6 from "../../assets/product/27.webp";
-import IMG7 from "../../assets/product/28.avif";
-import IMG8 from "../../assets/product/33.jpeg";
-import IMG9 from "../../assets/product/30.jpeg";
-import IMG10 from "../../assets/product/1.jpg";
-
 function OurWork() {
   const products = [
-    { img: IMG9, name: "Ceiling Speakers", span: 10 },
-    { img: IMG1, name: "Wireless Microphone System", span: 15 },
-    { img: IMG3, name: "Home Theatre", span: 10 },
-    { img: IMG4, name: "Mixers", span: 15 },
-    { img: IMG5, name: "Projectors", span: 10 },
-    { img: IMG6, name: "Power Amplifiers", span: 10 },
-    { img: IMG10, name: "Wall Mount Speakers", span: 15 },
-    { img: IMG8, name: "Subwoofer", span: 15 },
-    { img: IMG2, name: "In-Wall Speakers", span: 10 },
-    { img: IMG7, name: "Speakers", span: 10 },
+    {
+      img: "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Lalsonselectronics/product/30.jpeg",
+      name: "Ceiling Speakers",
+      span: 10,
+    },
+    {
+      img: "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Lalsonselectronics/product/22.avif",
+      name: "Wireless Microphone System",
+      span: 15,
+    },
+    {
+      img: "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Lalsonselectronics/product/24.png",
+      name: "Home Theatre",
+      span: 10,
+    },
+    {
+      img: "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Lalsonselectronics/product/25.jpeg",
+      name: "Mixers",
+      span: 15,
+    },
+    {
+      img: "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Lalsonselectronics/product/26.jpg",
+      name: "Projectors",
+      span: 10,
+    },
+    {
+      img: "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Lalsonselectronics/product/27.webp",
+      name: "Power Amplifiers",
+      span: 10,
+    },
+    {
+      img: "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Lalsonselectronics/product/1.jpg",
+      name: "Wall Mount Speakers",
+      span: 15,
+    },
+    {
+      img: "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Lalsonselectronics/product/33.jpeg",
+      name: "Subwoofer",
+      span: 15,
+    },
+    {
+      img: "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Lalsonselectronics/product/32.jpeg",
+      name: "In-Wall Speakers",
+      span: 10,
+    },
+    {
+      img: "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Lalsonselectronics/product/28.avif",
+      name: "Speakers",
+      span: 10,
+    },
   ];
 
   return (

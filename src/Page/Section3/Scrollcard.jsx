@@ -1,13 +1,8 @@
 import ScrollCardBox from "../../Components/ScrollCardBox";
 
-import IMG2 from "../../assets/service1.jpg";
-import IMG3 from "../../assets/service2.jpg";
-import IMG4 from "../../assets/service3.jpg";
-import IMG1 from "../../assets/service4.jpg";
-
 const obj = [
   {
-    img: IMG3,
+    img: "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Lalsonselectronics/service/service2.jpg",
     color: "#ffffff",
     desc: "Enhancing the acoustic characteristics of your space with expert acoustic solutions for quality sound reproduction and intelligibility",
     title: "Acoustic Consultation and Designing.",
@@ -15,7 +10,7 @@ const obj = [
     type: "green",
   },
   {
-    img: IMG2,
+    img: "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Lalsonselectronics/service/service1.jpg",
     color: " #a6a6a6",
     desc: "Providing end-to-end project design solutions for an optimal Audio Visual experience.",
     title: "Complete Project Designing.",
@@ -23,7 +18,7 @@ const obj = [
     type: "blue",
   },
   {
-    img: IMG4,
+    img: "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Lalsonselectronics/service/service3.jpg",
     color: "#ffffff",
     desc: "You can count on us to install your precious equipment's, so that they perform precisely as it is meant to be.",
     title: "Installation of Equipment.",
@@ -31,7 +26,7 @@ const obj = [
     type: "gray",
   },
   {
-    img: IMG1,
+    img: "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Lalsonselectronics/service/service4.jpg",
     color: " #a6a6a6",
     desc: "We will take care of all the products sold by us with our in house service department. AMC packages are also available ensuring you with peace of mind.",
     title: "Annual Maintenance & After care.",
@@ -39,7 +34,7 @@ const obj = [
     type: "blue",
   },
   {
-    img: IMG1,
+    img: "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Lalsonselectronics/service/service4.jpg",
     color: "#ffffff",
     desc: "Review acceptance letters, finalize your choice, and pay the enrollment deposit.",
     title: "Secure Admission Offer.",
@@ -47,7 +42,7 @@ const obj = [
     type: "green",
   },
   {
-    img: IMG1,
+    img: "https://marketlube-website-assets.s3.ap-south-1.amazonaws.com/Lalsonselectronics/service/service4.jpg",
     color: " #a6a6a6",
     desc: "Submit visa applications with required documents and attend interviews if necessary",
     title: "Get Visa, Fly Abroad.",
